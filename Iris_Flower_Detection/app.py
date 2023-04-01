@@ -1,0 +1,71 @@
+from flask import Flask , render_template , request
+import os
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+import warnings
+warnings.filterwarnings("ignore")
+df=pd.read_csv("E:\\Datasets\\iris_data.csv")
+print(df.head(120))
+x=np.array(df.iloc[:,0:4])
+y=np.array(df.iloc[:,5:])
+ 
+#print(y.shape)
+from sklearn.preprocessing import LabelEncoder
+label=LabelEncoder()
+y=label.fit_transform(y)
+
+X_train,X_test,Y_train,Y_test = train_test_split(x,y,test_size=0.2,random_state=2)
+#print(y)
+from sklearn.svm import SVC
+iris=SVC(kernel="linear")
+iris.fit(X_train,Y_train)
+y_pred=iris.predict(X_test)
+from sklearn.metrics import accuracy_score
+testing_accuracy=accuracy_score(y_pred,Y_test)
+print("testing accuracy score is :" , testing_accuracy)
+data=np.array([[5.1,3.5,1.4, 0.2]])
+result=iris.predict(data)
+print("the predicted output of our model is :", result)
+
+
+import pickle
+pickle.dump(iris,open('iris.pkl','wb'))
+
+
+model=pickle.load(open('iris.pkl','rb'))
+app=Flask(__name__)
+port=int(os.environ.get("PORT",5000))
+
+ 
+@app.route('/')
+def index():
+    return render_template("home.html")
+
+@app.route('/predict',methods=["GET","POST"])
+def folders():
+    if request.method == "POST":
+        data1 = request.form['a']
+
+        data2 = request.form['b']
+
+        data3 = request.form['c']
+
+        data4 = request.form['d']
+
+        arr=np.array([[data1 , data2 , data3 , data4]])
+        pred=model.predict(arr)
+
+        #if(model.predict(arr)[0]==0):
+        #    return "It is a Iris-Setosa"
+#
+        #elif(model.predict(arr)[0]==1):
+        #    return "It is a Iris-Versicolor"
+       # return "It is a Iris-Virginica"
+    return render_template("after.html",data=pred)
+        #print(pred)
+
+
+
+if __name__ == "__main__":
+    app.run(debug=True,host='0.0.0.0',port=port)

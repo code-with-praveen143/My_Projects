@@ -328,7 +328,7 @@ header .post{
     border-radius: 3rem ;
 }
 .contact .row form .box::placeholder{
-            text-transform: capitalize;
+            text-transform: lowercase;
 
 }
 
@@ -356,8 +356,11 @@ header .post{
 .contact .row .content .info h3 i{
     padding-left: 2rem;
     color:black;
+    text-transform: lowercase;
 }
-
+.info{
+    text-transform: lowercase;
+}
 
 
 

@@ -1,170 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resposive Personal Protofolio</title>
-    <!-- font link google nundi dengeysa friends-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="intro">
-    <nav class="navbar fixed-top">
-        <ul class="nav nav-pills nav-fill">
-            <li class="nav-item">
-            <div class="alert alert-info" role="alert">                  
-                <a class="nav-link" href="#home">Home</a>
-            </div>
-            </li>
-            <li class="nav-item">
-            <div class="alert alert-info" role="alert">
-              <a class="nav-link" href="#about">About Us</a>
-            </div>
-            </li>
-            <li class="nav-item">
-            <div class="alert alert-info" role="alert"> 
-              <a class="nav-link" href="#education">Education</a>
-            </div>
-            </li>
-            <li class="nav-item">
-            <div class="alert alert-info" role="alert">
-              <a class="nav-link " href="#portfolio">Portfolio</a>
-            </div>
-            </li>
-            <li class="nav-item">
-            <div class="alert alert-info" role="alert">
-                <a class="nav-link " href="#contact">Contact</a>
-            </div>
-            </li>
-          </ul>
-    </nav>
-</header>
-        <div id="menu" class="fas fa-bars"></div>
-        
-        <section class="home" id="home">
-            <h3>HI THERE !</h3>
-            <h1>I'M <span>Praveen Kumar</span></h1>
-            <p>As a machine learning student, I possess a strong theoretical foundation in statistics, algorithms, 
-                and data analysis. I have hands-on experience working with popular machine learning libraries 
-                such as Scikit-learn, TensorFlow, and Keras. Through previous academic projects and internships, I 
-                have developed skills in building and deploying machine learning models for various applications, 
-                including image classification, natural language processing, and predictive modelling. I am a quick 
-                learner and a team player who thrives in a fast-paced environment. With my solid technical skills 
-                and passion for machine learning, I am eager to contribute to a dynamic and innovative team as a 
-                machine learning intern.</p>
-            <a href="#about"><button class="btn">about me<i class="fas fa-user"></i>user</button></a>
-        </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Landing page responsive portfolio</title>
+    </head>
+    <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
 
-        <section class="about" id="about">
-            <h1 class="heading">About<span>Me</span></h1>
-            <div class="row">
-                <div class="info">
-                    <h3><span>name : </span>Praveen Kumar</h3>
-                    <h3><span>age : </span>20</h3>
-                    <h3><span>qualification : </span>B.Tech</h3>
-                    <h3><span>post : </span>ML Developer</h3>
-                    <a href="PraveenKumar.pdf" download="praveenkumar"><button class="btn">Download Resume <i class="fas fa-download"></i></button></a>
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Bedimcode</a>
                 </div>
-                <div class="counter">
-                    <div class="box">
-                        <span>1</span>
-                        <h3>Year of experience</h3>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="l-main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <span class="home__pressent anime-text">Hello, My name is</span>
+                    <h1 class="home__title anime-text">John Doe</h1>
+                    <span class="home__skill anime-text">Web Developer</span>
+                    
+                    <div>
+                        <a href="#" class="home__button anime-text">DOWNLOAD CV</a>
                     </div>
-                    <div class="box">
-                        <span>50+</span>
-                        <h3>Projects completed</h3>
-                    </div>
-
                 </div>
+
+                <div class="home__img">
+                    <img src="assets/img/img.jpg" alt="">
+                </div>
+                
+                <div class="home__social">
+                    <ion-icon name="logo-facebook" class="home__social-icon"></ion-icon>
+                    <ion-icon name="logo-instagram" class="home__social-icon"></ion-icon>
+                    <ion-icon name="logo-twitter" class="home__social-icon"></ion-icon>
+                </div>
+
             </div>
-        </section>
+        </main>
 
-        <section class="education" id="education">
-            <h1 class="heading">My <span>Education</span></h1>
-            <div class="box-container">
-                <div class="box">
-                    <i class="fa fa-graduation-cap"></i>
-                    <span>2024</span>
-                    <h3>Computer Science And Engineering</h3>
-                    <p>Recent graduate in Computer Science with a focus on Machine Learning, eager to apply my theoretical knowledge to practical projects.</p>
-                </div>
-                <div class="box">
-                    <i class="fa fa-graduation-cap"></i>
-                    <span>2024</span>
-                    <h3>Computer Science And Engineering</h3>
-                    <p>Recent graduate in Computer Science with a focus on Machine Learning, eager to apply my theoretical knowledge to practical projects.</p>
-                </div>
-                <div class="box">
-                    <i class="fa fa-graduation-cap"></i>
-                    <span>2024</span>
-                    <h3>Computer Science And Engineering</h3>
-                    <p>Recent graduate in Computer Science with a focus on Machine Learning, eager to apply my theoretical knowledge to practical projects.</p>
-                </div>
-                <div class="box">
-                    <i class="fa fa-graduation-cap"></i>
-                    <span>2024</span>
-                    <h3>Computer Science And Engineering</h3>
-                    <p>Recent graduate in Computer Science with a focus on Machine Learning, eager to apply my theoretical knowledge to practical projects.</p>
-                </div>
-                <div class="box">
-                    <i class="fa fa-graduation-cap"></i>
-                    <span>2024</span>
-                    <h3>Computer Science And Engineering</h3>
-                    <p>Recent graduate in Computer Science with a focus on Machine Learning, eager to apply my theoretical knowledge to practical projects.</p>
-                </div>
-            </div>
-        </section>
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
-
-
-        <section class="portfolio" id="portfolio"> 
-            <h1 class="heading">My <span>Portfolio</span></h1>
-            <div class="box-container">
-                <div class="box">
-                    <img src="profile.jpg" alt="">
-                </div>
-            </div>
-        </section>
-
-        <section class="contact" id="contact">
-            <h1 class="heading">Contact<span>Me</span></h1>
-            <div class="row">
-                <div class="content">
-                    <h3 class="title">contact info</h3>
-                    <div class="info">
-                        <h3><i class="fas fa-envelope"></i>codethebug3@gmail.com</h3>
-                        <h3><i class="fas fa-phone"></i>7569993454</h3>
-                        <h3><i class="fas fa-map-marker-alt"></i>Machilipatnam,Andhrapradesh,India-521001</h3>
-                    </div>
-                    <form action="">
-                        <input type="text" placeholder="name" class="box">
-                        <input type="email" placeholder="email" class="box">
-                        <input type="text" placeholder="Project" class="box">
-                        <textarea name="" id="" cols="30" rows="10" class="box messages" placeholder="message"></textarea>
-                        <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-
-        
-
-
-
-
-
-
-
-
-
-    <!-- jquery link-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="js/script.js"></script>
-</body>
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
+    
+        <!-- ICONS -->
+        <script  type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    </body>
 </html>

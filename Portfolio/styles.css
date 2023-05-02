@@ -427,3 +427,6 @@ transform: translateY(-5px);
 }
 .contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox input:focus ~ span
+{
+  
+}

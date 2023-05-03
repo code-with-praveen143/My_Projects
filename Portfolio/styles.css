@@ -360,8 +360,8 @@ transform: translateY(-5px);
 {
   min-width: 60px;
   height: 60px;
-  background: white;
-  border-radius: 50%;
+  background: red;
+  border-radius: 40%;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -19,6 +19,7 @@
 }
 *{
 margin: 0;
+box-sizing: border-box;
 padding: 0;
 font-family: 'Poppins', sans-serif;
 }
@@ -316,7 +317,7 @@ transform: translateY(-5px);
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(215, 152, 184);
+  background-image: url(background.png);
   color: whitesmoke;
 }
 
@@ -386,13 +387,14 @@ transform: translateY(-5px);
   width: 40%;
   height: 20%;
   padding: 10%;
-  background: white;
+  background: #fff;
   color: black;
+  
 }
 .contactForm h2
 {
   font-size: 30px;
-  color: black;
+  color: #333;
   font-weight: 500;
 }
 

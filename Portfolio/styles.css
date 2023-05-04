@@ -201,6 +201,7 @@ transform: translateY(-5px);
 }
 
  .skills-section {
+  margin-top: 30px;
   background-color: black;
 }
 
@@ -310,6 +311,7 @@ transform: translateY(-5px);
 /* contact section */
 .contact
 {
+  margin-top: 30px;
   position: relative;
   min-height: 100vh;
   padding:50px 100px;
@@ -451,6 +453,27 @@ transform: translateY(-5px);
   font-size: 18px;
 }
 
+.footer .footer1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #000;
+  color: white;
+  font-family: "Poppins" sans-serif;
+  margin-top: 30px;
+  border: 10px;
+  border-radius: 5px solid;
+}
+footer .footer1 p
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
 @media(max-width:991px) 
 {
   .contact

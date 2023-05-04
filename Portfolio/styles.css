@@ -319,7 +319,7 @@ transform: translateY(-5px);
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  background-color: plum;
+  background-color: black;
   background-size: cover;
   color: whitesmoke;
 }
@@ -333,7 +333,7 @@ transform: translateY(-5px);
 {
   font-size: 35px;
   font-weight: 500;
-  color: black;
+  color: white;
 
 }
 .contact .content p
@@ -383,12 +383,12 @@ transform: translateY(-5px);
 .container .contactInfo .box .text h1
 {
   font-weight: 400;
-  color: black;
+  color: white;
 }
 .container .contactInfo .box .text p
 {
   font-weight: 200;
-  color: red;
+  color: white;
 }
 .contactForm
 {

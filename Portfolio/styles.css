@@ -201,7 +201,7 @@ transform: translateY(-5px);
 }
 
  .skills-section {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   background-color: black;
 }
 
@@ -273,9 +273,7 @@ transform: translateY(-5px);
 .projects{
   background-color: black;
 }
-.projects .container{
-  margin-top: 2rem;
-}
+
 .projects .project-section{
   background-color: #ffffff;
   border-radius: 10px;
@@ -311,7 +309,7 @@ transform: translateY(-5px);
 /* contact section */
 .contact
 {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   position: relative;
   min-height: 100vh;
   padding:50px 100px;
@@ -459,10 +457,10 @@ transform: translateY(-5px);
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-color: #000;
+  background-color: #7B71D5;
   color: white;
   font-family: "Poppins" sans-serif;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   border: 10px;
   border-radius: 5px solid;
 }

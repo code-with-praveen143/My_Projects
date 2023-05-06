@@ -1,0 +1,1633 @@
+10/24/22, 21:31 - Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them. Tap to learn more.
+10/24/22, 21:31 - </>: Repu vastunnava
+10/24/22, 21:31 - </>: Ra
+10/24/22, 21:39 - Avvi: Ye doubt aa
+10/24/22, 21:39 - </>: Ledhu mamuluga adiga raa
+10/24/22, 21:40 - Avvi: Haa vasthunaa
+10/24/22, 21:40 - </>: Ear phones tesuku raa
+10/24/22, 21:40 - Avvi: Telusu
+10/24/22, 21:40 - Avvi: Gurthe vundhi
+10/24/22, 21:41 - </>: Haa
+10/26/22, 08:39 - Avvi: Bro CT papers theeskovaa
+10/26/22, 08:40 - </>: Manaki deniki
+10/26/22, 08:40 - </>: Raa
+10/26/22, 08:40 - Avvi: Alaa antaarentandi
+10/26/22, 08:40 - </>: Chala mandhi vunnaru gaa
+10/26/22, 08:40 - </>: Mee akka ni adugu
+10/26/22, 08:40 - Avvi: Alaagaa alaage
+10/26/22, 08:40 - Avvi: Haa good idea
+10/26/22, 08:41 - Avvi: Theesko
+10/26/22, 08:41 - </>: Haa
+10/27/22, 07:09 - Avvi: Arey aa dld questions ee num ki pettu PDFs kudaa
+10/27/22, 07:09 - </>: <Media omitted>
+10/27/22, 07:11 - </>: <Media omitted>
+10/27/22, 09:14 - </>: <Media omitted>
+10/27/22, 09:14 - </>: <Media omitted>
+10/27/22, 09:14 - </>: <Media omitted>
+10/27/22, 09:14 - </>: <Media omitted>
+10/27/22, 09:14 - </>: <Media omitted>
+10/27/22, 09:14 - </>: <Media omitted>
+10/27/22, 09:14 - </>: <Media omitted>
+10/30/22, 11:53 - </>: arey adigava lasya ni
+10/30/22, 11:53 - </>: exam results gurinchi
+10/30/22, 12:20 - Avvi: Adigaa November lo andhi mari
+10/30/22, 12:23 - </>: Ok
+10/30/22, 19:53 - Avvi: Praveen servicenow dhi iypoindhaa
+10/30/22, 20:06 - </>: Haa
+10/30/22, 20:06 - </>: Raa
+10/30/22, 20:08 - Avvi: Naadhi cheyra konchem
+10/30/22, 20:08 - Avvi: Time vunte
+10/30/22, 20:08 - </>: Aeyndhi em mataldatunnavu daa
+10/30/22, 20:09 - </>: Naaku eppudu time ledhu
+10/31/22, 12:47 - </>: arey exam fee gurinchi kanukkora
+10/31/22, 12:47 - </>: avarinaina
+10/31/22, 12:47 - </>: enti situation ani
+10/31/22, 14:20 - Avvi: Kk
+10/31/22, 20:56 - Avvi: Marchipoyaa baava birthday eeroju have u wished him
+10/31/22, 21:11 - </>: Nee okkadikey raa bava naaku kaadhu rasagulla
+10/31/22, 21:13 - Avvi: Rasagulla kaadhu Abbey adhi vasakolla
+10/31/22, 21:18 - </>: ok ok
+10/31/22, 21:18 - </>: party echhada mari
+10/31/22, 21:19 - </>: akka happy aey naa
+10/31/22, 21:19 - </>: mataldakovtam ledhu anta gaa
+10/31/22, 21:23 - Avvi: Haa crazy love story le vaalladhi
+10/31/22, 21:23 - </>: haa
+10/31/22, 21:23 - Avvi: <Media omitted>
+10/31/22, 21:24 - </>: yaa
+11/2/22, 19:59 - </>: def findpairs(l,k):
+    new=[]
+    for i in range(len(l)):
+        for j in range(i+1,len(l)):
+            val=l[i]+l[j]
+        #print(val)
+            if val==k:
+                new.append(l[i])
+                new.append(l[j])
+    return list(set(new))
+    
+l=list(map(int,input().split()))
+k=int(input())
+findpairs(l,k)
+11/2/22, 20:49 - Avvi: Thappu
+11/2/22, 20:49 - Avvi: Adhi list ga maathrame print iythadhi
+11/2/22, 20:51 - </>: Haa
+11/2/22, 20:51 - Avvi: This message was deleted
+11/2/22, 20:51 - </>: Question pettu
+11/2/22, 20:51 - </>: 👏
+11/2/22, 20:52 - </>: Rey
+11/2/22, 20:52 - </>: Problem pettu
+11/2/22, 20:53 - Avvi: <Media omitted>
+11/2/22, 20:54 - </>: Ok
+11/2/22, 22:05 - </>: You deleted this message
+11/2/22, 22:09 - </>: def findpairs(l,k):
+    lst=l.split(",")
+    l=[int(i) for i in lst]
+    new=[]
+    for i in range(len(l)):
+        for j in range(i+1,len(l)):
+            val=l[i]+l[j]
+            if val==k:
+                new.append(l[i])
+                new.append(l[j])
+    m=0
+    n=2
+    out=()
+    for i in range(len(new)//2):
+        out=new[m:n]
+        print(tuple(out))
+        m+=2
+        n+=2
+l=input()
+k=int(input())
+findpairs(l,k)
+11/2/22, 22:10 - </>: chudu
+11/2/22, 22:29 - Avvi: Repeat avuthunnai ante (5,7),(7,5)
+11/2/22, 22:29 - Avvi: Avvakudadhu
+11/3/22, 06:19 - </>: <Media omitted>
+11/3/22, 06:42 - Avvi: Thappu
+11/3/22, 06:44 - </>: Haaa
+11/3/22, 06:44 - </>: Enti
+11/3/22, 06:45 - </>: Neee output pettu
+11/3/22, 06:45 - Avvi: -4 to +6 varaku icchi
+11/3/22, 06:45 - Avvi: -1 ivvu
+11/3/22, 06:45 - Avvi: Ante -4 + -3 = -1 alaa
+11/3/22, 06:45 - Avvi: Try cheyy
+11/3/22, 06:48 - </>: Naaku next input pettu raa
+11/3/22, 06:48 - </>: Adhey next sample test case
+11/3/22, 06:50 - Avvi: -4, -3, -2,-1,0,1,2,3,4,5,6
+-1
+11/3/22, 06:50 - </>: Ok
+11/3/22, 06:50 - </>: Ok
+11/3/22, 06:58 - </>: <Media omitted>
+11/3/22, 07:00 - Avvi: Haa kk
+11/3/22, 07:00 - </>: Ha
+11/3/22, 17:29 - </>: Repu earphones tesuku raa
+11/3/22, 17:30 - Avvi: Kk
+11/5/22, 12:30 - </>: rey andharu visit lo vunnaru anta
+11/6/22, 16:24 - </>: <Media omitted>
+11/7/22, 18:33 - </>: <Media omitted>
+11/7/22, 18:33 - </>: Edhi kuda observation lo rayali anta
+11/7/22, 18:33 - </>: Devops
+11/7/22, 18:57 - Avvi: Kk
+11/8/22, 18:59 - Avvi: Praveen oka experiment chedhaam
+11/8/22, 18:59 - Avvi: Kaadhu ra baabo entha sepu
+11/8/22, 18:59 - Avvi: null
+11/8/22, 19:00 - Avvi: is  it true
+11/8/22, 19:00 - </>: Seemantham aa
+11/8/22, 19:00 - </>: Mee akka ki
+11/8/22, 19:00 - </>: Pasupu kodtunnaru
+11/8/22, 19:00 - Avvi: Kaadhu grahanam antagaa
+11/8/22, 19:01 - Avvi: Alaa rokali bandalo alaa nilabedathaarantaa
+11/8/22, 19:01 - </>: Haa
+11/8/22, 19:01 - Avvi: Neeku theleedha munda
+11/8/22, 19:01 - </>: Emo manaki teliyadhu sir
+11/8/22, 19:01 - Avvi: Nene best ga Inka
+11/8/22, 19:01 - </>: Ee time lo sex chesukokudadhu ani telusu
+11/8/22, 19:02 - Avvi: Enough Inka nenu akhanda iypothaa
+11/8/22, 19:02 - Avvi: Hara Hara mahaadev
+11/8/22, 19:02 - </>: Bham bham bole nadh
+11/8/22, 19:02 - Avvi: Aham shivM I am shivam
+11/8/22, 19:02 - </>: Okka veedu tappa
+11/8/22, 19:02 - Avvi: <Media omitted>
+11/8/22, 19:02 - </>: Kaaru kuthalu kustey kapalam pagiliddi
+11/8/22, 19:03 - </>: 😂
+11/8/22, 19:03 - Avvi: <Media omitted>
+11/8/22, 19:03 - Avvi: Sare avi prepare avuthunava
+11/8/22, 19:03 - Avvi: CDL
+11/8/22, 19:03 - </>: Haa
+11/8/22, 19:03 - Avvi: Nov 16 anukunta
+11/8/22, 19:03 - Avvi: Exam
+11/8/22, 19:04 - </>: <Media omitted>
+11/8/22, 19:04 - </>: Haa avunu
+11/8/22, 19:04 - </>: Neeku ela telusu
+11/8/22, 19:04 - Avvi: Ee chetha endhukayya
+11/8/22, 19:04 - Avvi: 1000 rupees material nenu pettindhi
+11/8/22, 19:04 - Avvi: Ave vasthay ani chepthunte
+11/8/22, 19:05 - </>: Repu quiz vundhi 6:00 ki repu antha avey chustha
+11/8/22, 19:05 - </>: Nenu
+11/8/22, 19:05 - Avvi: Ohooo
+11/8/22, 19:05 - </>: Present ee topics chusii
+11/8/22, 19:06 - Avvi: Missed voice call
+11/8/22, 20:39 - </>: https://youtu.be/etWLQceVSVE
+11/8/22, 20:39 - </>: Mee valey
+11/8/22, 20:42 - Avvi: Ilantivi choopinchaku
+11/8/22, 20:42 - Avvi: Manaki naamoshi
+11/8/22, 20:43 - Avvi: Manam kuda bomb lagaa dhengey
+11/8/22, 20:43 - </>: Haaa
+11/8/22, 20:43 - </>: Manchi line lo vunnaru ley vaalu
+11/8/22, 20:43 - </>: Next nvuuey raa
+11/8/22, 20:43 - Avvi: Adhantha oka padhathi oka planning
+11/8/22, 20:44 - </>: Haaa
+11/8/22, 21:07 - </>: <Media omitted>
+11/8/22, 21:22 - Avvi: Manadhe idhantha
+11/8/22, 21:36 - </>: 😂
+11/10/22, 12:51 - Avvi: Praveen dld syllabus pdf vunte pamparaa
+11/10/22, 12:52 - </>: Meeru maaripoyaru sir
+11/10/22, 12:52 - Avvi: Edho
+11/10/22, 12:52 - </>: <Media omitted>
+11/10/22, 12:53 - Avvi: Distributive systems aa
+11/10/22, 12:58 - Avvi: <Media omitted>
+11/10/22, 12:58 - Avvi: Ivemoo chodu
+11/10/22, 12:59 - </>: Haa
+11/10/22, 12:59 - </>: Ss
+11/10/22, 17:28 - </>: <Media omitted>
+11/10/22, 17:28 - </>: Ela vastundhi raa
+11/10/22, 17:40 - </>: <Media omitted>
+11/10/22, 17:51 - Avvi: We wil see
+11/10/22, 17:51 - </>: Ok
+11/11/22, 09:24 - </>: DLD materials pettu
+11/11/22, 10:27 - Avvi: Ledhu nenem download cheyla
+11/11/22, 10:27 - Avvi: Neso lo Ila topic batti videos choosthunna
+11/11/22, 10:54 - </>: Ok
+11/11/22, 19:24 - Avvi: Praveen Repu vellodhule manam clg ki nenu intikaadane vundaalanta
+11/11/22, 19:24 - Avvi: Maa naana dhobbuthunaadu
+11/11/22, 19:27 - </>: Aeynti hadavudi akkada assalu
+11/11/22, 19:28 - Avvi: Emledhu lavada ee pillani choodataniki betalian dhiguthunaaru hyd nunchi
+11/11/22, 19:29 - </>: Ohh tappu raaa ala anaku tappu
+11/11/22, 19:29 - </>: Vaalu antha prematho vastunnaru gaa
+11/11/22, 19:29 - Avvi: Malli vaalla mundhu nenu laptop book tho hadavidi chesthe
+11/11/22, 19:29 - Avvi: Ceo ra veedu antaaru
+11/11/22, 19:29 - Avvi: Ohoo
+11/11/22, 19:29 - </>: Abbo abbayi line lo vunnadu anukuntaru
+11/11/22, 19:29 - </>: Haa avasarama manaki
+11/11/22, 19:30 - Avvi: Andhuke daddy repu nenu underground ki velpothaa ani cheppa
+11/11/22, 19:30 - </>: Haa em annaru mari
+11/11/22, 19:31 - </>: <Media omitted>
+11/11/22, 19:31 - Avvi: Ika modhaledadhaama
+11/11/22, 19:31 - Avvi: Ee kashtaalu anni eppudu pothaayo ra naaku maathram
+11/11/22, 19:32 - </>: Haa hope for the best
+11/11/22, 19:32 - </>: Arambhikalama
+11/16/22, 16:50 - Avvi: <Media omitted>
+11/16/22, 21:17 - Avvi: <Media omitted>
+11/17/22, 19:25 - </>: <Media omitted>
+11/17/22, 22:11 - </>: <Media omitted>
+11/20/22, 17:00 - Avvi: Arey pdf pettu
+11/20/22, 17:11 - </>: <Media omitted>
+11/20/22, 18:56 - Avvi: Devops dhi pdf emaina vundha
+11/20/22, 18:56 - Avvi: First 3 experiments
+11/20/22, 18:58 - </>: Haa
+11/20/22, 18:59 - </>: <Media omitted>
+11/20/22, 18:59 - </>: Group lo vundhi chudu
+11/20/22, 18:59 - </>: Naa data over ravatala pdf
+11/20/22, 18:59 - Avvi: Haa
+11/20/22, 20:53 - Avvi: Devops , CN index
+11/20/22, 21:24 - </>: Devops i also did'nt wrote
+11/20/22, 21:24 - </>: Cn phani sir lab me hai
+11/20/22, 21:31 - Avvi: Why don't you lick ur armpit
+11/20/22, 21:31 - Avvi: Acha ek photo lene ke kya ho gaya saab
+11/20/22, 21:31 - </>: Lavada raa aey school needhi
+11/20/22, 21:32 - </>: Mg
+11/20/22, 21:32 - </>: Nee lanti arripuku adugutadu ani teliyadhu raa naaku
+11/20/22, 21:33 - </>: Jambalakidi jaaru mitayi
+11/20/22, 21:33 - Avvi: Nenu erripuku ni iytaa ga repu iythe
+11/20/22, 21:33 - Avvi: Emparlaa lab incharge tho godava esukuntaa naaku alavaate
+11/20/22, 21:34 - </>: Haa
+11/20/22, 21:34 - </>: Haa repu kabaddi adukundham
+11/21/22, 10:59 - </>: <Media omitted>
+11/21/22, 11:43 - Avvi: 10 th question
+11/21/22, 11:43 - Avvi: Pettu
+11/21/22, 12:23 - </>: <Media omitted>
+11/21/22, 15:49 - Avvi: This message was deleted
+11/21/22, 15:50 - Avvi: This message was deleted
+11/25/22, 23:45 - </>: Help me be among the top 8 lakh teams and get assured team rewards of up to ₹350 https://gpay.app.goo.gl/q1W97r
+11/25/22, 23:45 - </>: Nvuu join avvu
+11/25/22, 23:46 - </>: MOney  vastayi
+11/25/22, 23:46 - </>: Join avvu team form chestunna
+11/26/22, 07:58 - </>: Help me be among the top 8 lakh teams and get assured team rewards of up to ₹350 https://gpay.app.goo.gl/cjEq
+11/26/22, 09:16 - Avvi: Chesaa
+11/26/22, 13:57 - </>: Help me be among the top 8 lakh teams and get assured team rewards of up to ₹350 https://gpay.app.goo.gl/XVrM3Q
+11/27/22, 09:37 - </>: Help me be among the top 8 lakh teams and get assured team rewards of up to ₹350 https://gpay.app.goo.gl/s2PNqM
+11/27/22, 09:43 - Avvi: Evitiki ra ayya meekem Pani ledhaa Inka
+11/27/22, 09:43 - Avvi: This message was deleted
+11/27/22, 09:44 - </>: Chorry
+11/27/22, 09:44 - </>: Baga feel ayinattu vunnadu
+11/27/22, 21:57 - Avvi: Repu ye time ki veldham
+11/27/22, 21:57 - </>: Hmm break time lo
+11/27/22, 21:57 - </>: Nenu ekkada 8:30 ki aeykkutha
+11/27/22, 21:58 - </>: Avaru mundhu pammaru bus stop ki vastey vaalu call cheyyali
+11/27/22, 22:00 - </>: My life my rules
+11/28/22, 10:29 - </>: <Media omitted>
+11/28/22, 21:26 - Avvi: Arey n-queen problem vasthadhantaava
+11/28/22, 21:30 - </>: Emo raa
+11/28/22, 21:30 - </>: Anni chudu
+11/28/22, 21:30 - </>: Cheppalem
+11/28/22, 21:31 - Avvi: Dhaniki program kuda aduguthaada
+11/28/22, 21:34 - </>: Ledhu raa
+11/28/22, 21:34 - </>: Program em ledhu just aa process rayali
+11/28/22, 21:35 - Avvi: Ha 😀
+11/29/22, 11:04 - </>: <Media omitted>
+11/29/22, 12:34 - Avvi: <Media omitted>
+11/29/22, 13:34 - </>: <Media omitted>
+11/29/22, 20:41 - </>: <Media omitted>
+11/30/22, 11:58 - </>: <Media omitted>
+11/30/22, 16:37 - </>: UNIT3
+Natural deduction , axiometric system
+Unit4
+Semantic net ,conceptual dependency
+Unit5
+Rule based expert system,Truth maintainance system
+
+Expert system, monotonic ,script Structure,semantic net
+12/2/22, 13:41 - </>: <Media omitted>
+12/5/22, 20:32 - </>: <Media omitted>
+12/6/22, 10:34 - </>: <Media omitted>
+12/6/22, 16:47 - </>: Edhey naaa linked in certificate kavaalisindhi
+12/6/22, 16:53 - Avvi: Haa Ave Inka chey
+12/6/22, 16:54 - </>: haa chestunna
+12/6/22, 16:54 - </>: okkoti pettana linked in lo or anni kalipi pettana
+12/6/22, 17:12 - Avvi: Vachindhi vachinattu pettu
+12/6/22, 17:12 - </>: haa ok
+12/6/22, 19:34 - Avvi: Repu Vijayawada velthunna
+12/6/22, 19:48 - </>: Deniki
+12/6/22, 19:48 - </>: Raa
+12/6/22, 19:50 - </>: <Media omitted>
+12/6/22, 19:53 - Avvi: <Media omitted>
+12/9/22, 17:19 - Avvi: Chali iragadhesthundhi bhaiyya
+12/9/22, 17:20 - </>: Ayitey qutar aeyyali
+12/9/22, 17:20 - </>: Ledha hand ayina veyyali
+12/9/22, 17:20 - </>: Avi rendu nee valla kaadhu so musukuni tongovali
+12/9/22, 17:21 - Avvi: Theri remake antaga
+12/9/22, 17:21 - Avvi: Suicide letter lu velthunai antagaa
+12/9/22, 17:21 - Avvi: Ahaa Twitter lo talk uu
+12/9/22, 17:22 - </>: Gudda pagiliddi adiki adhi tesety
+12/9/22, 17:22 - </>: Haa avunu mamuluga vundadhu vadiki testey
+12/9/22, 17:22 - </>: Alredy vachhindhi adhi telugu lo malla remake anta
+12/9/22, 17:22 - Avvi: Ok u all will die
+12/15/22, 12:22 - Avvi: Broooooooo internship ppt ante Ela bro
+12/15/22, 12:23 - </>: Emo rr
+12/15/22, 12:23 - </>: Raa adhi manaki teliyadhu edho okati cheddam ley
+12/15/22, 12:23 - </>: Aaa time bagavan achha karetho saadhu bichha karengey
+12/15/22, 12:23 - Avvi: Ippudu kaakapothey inkeppudu
+12/15/22, 12:24 - </>: Ayitey cheyyi nvuuey ppt
+12/15/22, 12:24 - Avvi: Wtf
+12/15/22, 12:24 - </>: Same to you
+12/15/22, 12:25 - </>: Adhi oo lavada lo clg malli aa lavada lo internship ki ppt anta arrihuk gaalu
+12/15/22, 12:25 - </>: Ekkada okka rendu problems cheyyadanikey time vuntala malla aa lavada lo ppt aa chee dengey
+12/15/22, 12:26 - </>: Appudu chuddam ley manam
+12/15/22, 12:27 - Avvi: Haa kk
+12/15/22, 12:27 - </>: Raju gaadu set chestadu ley edho okati vadey gaa aa intern chepinchindhi andharitho
+12/15/22, 12:27 - Avvi: Ippudu andharu okate ppt chesi just names maatisthe
+12/15/22, 12:28 - </>: Set uu
+12/15/22, 12:28 - </>: Enkha enti
+12/15/22, 12:28 - Avvi: External ki mind dhenggidhi
+12/15/22, 12:28 - </>: Because we are engineers
+12/15/22, 12:28 - </>: Denganey
+12/15/22, 12:28 - </>: Em kaadhu
+12/15/22, 12:28 - Avvi: Sare kaanivandi
+12/15/22, 12:28 - </>: Haa
+12/15/22, 12:29 - </>: Nvuu em cheyyaledha bayata
+12/15/22, 16:31 - </>: <Media omitted>
+12/16/22, 21:54 - </>: Arey
+12/16/22, 22:02 - Avvi: Haa cheppu
+12/16/22, 22:03 - </>: Movie ela vundhi manam cheppinattey tesada james mava
+12/16/22, 22:03 - </>: Madhayalo rendu scene lu pettamanna pettada
+12/16/22, 22:04 - Avvi: Ledhu
+12/16/22, 22:04 - Avvi: 3 gantalu cinema raa adhi
+12/16/22, 22:04 - Avvi: Kaani time theliyalaa
+12/16/22, 22:04 - </>: Antha sepu pettada  scenes ori devudo
+12/16/22, 22:04 - Avvi: Baavundhi as a Hollywood movie lover gaa naaku visuals bagunaai
+12/16/22, 22:04 - </>: Mari antey bitlu chustey
+12/16/22, 22:05 - Avvi: Bitlu levu
+12/16/22, 22:05 - </>: Em ayina direction manodey  gaa
+12/16/22, 22:05 - Avvi: Avatar lu vesukunna neeku mood vasthadhaa
+12/16/22, 22:05 - Avvi: Kaamandhudaa
+12/16/22, 22:05 - </>: Waste Ayitey
+12/16/22, 22:05 - </>: Manaki avanni vaddu just romance antey
+12/16/22, 22:05 - Avvi: Avatar laki chepthe ninnu melikesi nalipesthaaru
+12/16/22, 22:06 - </>: Aa pikaru ley
+12/16/22, 22:06 - Avvi: Veldhaam ante raanu anaav
+12/16/22, 22:06 - Avvi: Visuals highlight
+12/16/22, 22:07 - </>: Hey kaani kaani enti nenu chudani visulas aa lighting aa
+12/16/22, 22:08 - </>: Ee movie chusava " aunty aratam uncle poratam " kcpd aey
+12/16/22, 22:08 - Avvi: Whaah
+12/16/22, 22:08 - Avvi: Prasa Adirindi
+12/16/22, 22:09 - </>: Tq tq
+12/17/22, 23:14 - </>: <Media omitted>
+12/20/22, 12:53 - </>: <Media omitted>
+12/20/22, 12:53 - </>: <Media omitted>
+12/20/22, 13:15 - </>: <Media omitted>
+12/20/22, 18:37 - Avvi: <Media omitted>
+12/21/22, 11:28 - </>: <Media omitted>
+12/21/22, 11:28 - </>: <Media omitted>
+12/21/22, 11:38 - </>: Rala
+12/21/22, 11:38 - </>: Enkha
+12/21/22, 11:40 - Avvi: Are pdf format kaakunda
+12/21/22, 11:40 - Avvi: Word la send chey ra
+12/21/22, 11:41 - </>: Avvadhu
+12/21/22, 11:41 - </>: Adhi eppudu
+12/22/22, 07:46 - </>: <Media omitted>
+12/22/22, 07:53 - Avvi: <Media omitted>
+12/22/22, 08:01 - Avvi: <Media omitted>
+12/26/22, 19:39 - Avvi: Probability and statistics dhi edho channel cheppav entidhi adhi
+12/26/22, 19:55 - </>: Eppudu aa ra adigiaeydhi
+12/26/22, 19:56 - </>: https://youtube.com/playlist?list=PLeIE3weEKo4Z9g2fg0WXChKabD1ydpA2U
+12/26/22, 19:56 - Avvi: 😉
+1/2/23, 09:48 - </>: <Media omitted>
+1/8/23, 07:32 - Avvi: <Media omitted>
+1/8/23, 07:32 - Avvi: Manaki ee biometric iypoyindhiga
+1/8/23, 07:50 - </>: Haa
+1/8/23, 07:51 - </>: Aa roju chesam gaa lab lo
+1/12/23, 18:39 - </>: rey halltickets techhukunnava
+1/12/23, 20:17 - Avvi: Ledhu 19 na potha
+1/12/23, 20:17 - Avvi: Hod ni thega nariki naa hall ticket thechukunta
+1/12/23, 20:19 - </>: Haa nenu vastha aa roju pass sign chepinchali mellaga afternoon veldam lunch time ki
+1/12/23, 20:19 - </>: Ok naa
+1/12/23, 20:21 - Avvi: Haa
+1/12/23, 20:22 - Avvi: Moothi meedha molisina prathi bochu meesam kaadhu ra bacha
+1/12/23, 20:22 - Avvi: Ela vundhi dialogue
+1/12/23, 20:26 - </>: Jai balaya
+1/13/23, 20:25 - </>: mava m3 vundha neeku
+1/13/23, 20:25 - </>: supply
+1/13/23, 21:07 - Avvi: Ledhu
+1/13/23, 21:10 - </>: ok
+1/18/23, 19:33 - </>: hello
+1/18/23, 19:34 - Avvi: Haa cheppu
+1/18/23, 19:34 - </>: arey yuvaraj gadiki call chesi sorry ani cheppu
+1/18/23, 19:34 - Avvi: Emaindhi
+1/18/23, 19:34 - </>: nenu cheppa ani cheppu matter repu chepputha
+1/18/23, 19:34 - Avvi: Haa ippude chepthaa
+1/18/23, 19:35 - </>: call chesa vaala amma lift chesindhi tongue slip ayyindhi antey
+1/18/23, 19:35 - </>: edini aeysukuntunnaru anukunta
+1/18/23, 19:35 - Avvi: Andhuke confirm chesaaka thitaali
+1/18/23, 19:35 - </>: adini WhatsApp lo ki raammanu
+1/18/23, 19:35 - </>: adhey by mistake
+1/18/23, 19:35 - Avvi: Pedha Munda laa vunaaventraa
+1/18/23, 19:36 - </>: arey vala amma edhi edho antundhi nenu manchiganey yuvaraj ki evvandi anna
+1/18/23, 19:36 - Avvi: Nvu emmanaav
+1/18/23, 19:36 - </>: ayina vala amma edho edho sodhi chepputundhi
+1/18/23, 19:37 - </>: naa mind tinkandi aunty anna antey
+1/18/23, 19:37 - Avvi: Ardham kaavatla repu cheppule
+1/18/23, 19:37 - </>: haa
+1/18/23, 19:40 - </>: em annadu vaadu
+1/18/23, 19:41 - Avvi: Emo choodala
+1/18/23, 19:42 - </>: call cheyyaledha
+1/18/23, 19:48 - </>: koddiga call cheyyi raa
+1/18/23, 19:51 - Avvi: Chesaa lift cheyyatla
+1/18/23, 19:51 - Avvi: 3 times chesaa
+1/18/23, 19:52 - </>: haa ok
+1/18/23, 21:02 - Avvi: Vaadu msg choosadu
+1/18/23, 21:02 - Avvi: Reply ivvala
+1/18/23, 21:23 - </>: Nenu set chesaa ley
+1/19/23, 20:34 - </>: You deleted this message
+1/20/23, 11:32 - </>: https://youtu.be/q06ZWhU17Fg
+1/26/23, 16:39 - </>: <Media omitted>
+1/26/23, 16:39 - </>: <Media omitted>
+1/26/23, 16:39 - </>: talaripraveenkumar53@gmail.com
+1/26/23, 16:39 - </>: Jyoshmitha@143
+1/26/23, 16:39 - </>: Aws account create cheyyi free gaa vunnapudu
+1/26/23, 17:22 - Avvi: Ha repu ok na lab lo chedham
+1/26/23, 17:23 - </>: Haa done
+1/26/23, 17:23 - </>: 10:40 ki veldham clg ki
+1/26/23, 17:23 - </>: Ok naa
+1/26/23, 17:23 - Avvi: Haa
+1/27/23, 19:44 - </>: Account marchipoku
+1/27/23, 19:50 - Avvi: Haa
+1/27/23, 21:40 - </>: Card pic tesuko repu try cheddam
+1/31/23, 19:59 - </>: pen drive bag lo pettuko eppudey
+1/31/23, 19:59 - </>: ok na
+1/31/23, 20:02 - Avvi: Haa kk
+2/2/23, 07:06 - </>: <Media omitted>
+2/2/23, 09:32 - </>: Aeykkada vunnavu
+2/2/23, 09:32 - Avvi: Ippude bus ekka
+2/2/23, 09:32 - </>: Sarey
+2/2/23, 09:32 - </>: Song chusava
+2/2/23, 09:32 - Avvi: Haa choosthunna
+2/2/23, 09:32 - </>: Needhey first entry
+2/3/23, 09:29 - Avvi: Ekkada
+2/3/23, 09:50 - </>: Toll gate
+2/3/23, 09:51 - Avvi: Nenu ippude pamarru vacha
+2/3/23, 09:54 - </>: Haa
+2/3/23, 09:54 - </>: Raa
+2/3/23, 09:54 - </>: Mellaga
+2/5/23, 07:48 - </>: Repu account create cheddam aws dhi
+2/5/23, 07:48 - </>: Card pic tesuko
+2/5/23, 07:48 - </>: And aa mobile kuda card vunna mobile sim for otp purpose
+2/5/23, 08:11 - Avvi: Haa sarle
+2/5/23, 20:17 - Avvi: Pendrive theeskura Loki gaadiki ichedhaam
+2/5/23, 21:12 - </>: Already ichesa nenu vadiki
+2/5/23, 21:37 - Avvi: Gud boy
+2/6/23, 08:41 - </>: Aeykkkada
+2/6/23, 09:30 - Avvi: Vuyyuru
+2/6/23, 09:42 - </>: Nenu vuyyuru aey
+2/6/23, 09:42 - </>: Digika aagu vastha
+2/6/23, 09:44 - Avvi: Haa
+2/8/23, 18:58 - Avvi: <Media omitted>
+2/8/23, 18:58 - Avvi: <Media omitted>
+2/8/23, 18:58 - Avvi: <Media omitted>
+2/8/23, 18:59 - Avvi: Answers please
+2/8/23, 19:01 - </>: <Media omitted>
+2/8/23, 19:42 - Avvi: Arey. Aa appsec dhi vaadu paper meedha raasindhe pettala
+2/8/23, 19:58 - </>: Haa
+2/8/23, 19:58 - </>: Avunu
+2/8/23, 19:59 - </>: Raa
+2/9/23, 08:46 - Avvi: Ekkada
+2/9/23, 10:43 - </>: Ravatala
+2/9/23, 10:43 - </>: Fever gaa vundhi
+2/9/23, 11:33 - Avvi: Ok
+2/9/23, 18:37 - </>: repu veldhama clg ki
+2/9/23, 18:37 - </>: nenu vastunna
+2/9/23, 19:38 - Avvi: Haa veldhaam
+2/18/23, 15:04 - </>: https://youtube.com/shorts/Y120MwVEZtI?feature=share
+2/18/23, 21:33 - Avvi: Happy birthday mummy🥳
+2/18/23, 21:58 - </>: Tqqq nana
+2/19/23, 18:53 - Avvi: CNS experiments pettu ekkadivaraku raayalo
+2/19/23, 19:51 - </>: Haa
+2/19/23, 20:00 - </>: <Media omitted>
+2/19/23, 20:00 - </>: <Media omitted>
+2/19/23, 20:00 - </>: <Media omitted>
+2/19/23, 20:00 - </>: <Media omitted>
+2/19/23, 20:00 - </>: <Media omitted>
+2/19/23, 20:00 - </>: <Media omitted>
+2/19/23, 20:00 - </>: <Media omitted>
+2/19/23, 20:00 - </>: <Media omitted>
+2/19/23, 20:00 - </>: <Media omitted>
+2/19/23, 20:00 - </>: <Media omitted>
+2/20/23, 22:33 - </>: code send cheyyi nptel dhi
+2/21/23, 06:29 - Avvi: 10:30 ki MSG pedithe dobbadhu ikkada
+2/21/23, 06:30 - Avvi: Max 10 lope pettali eeroju pedathaa
+2/21/23, 06:41 - </>: <Media omitted>
+2/21/23, 09:07 - Avvi: n = int(input())
+space = " "
+
+for i in range(1, n+1):
+    pattern = ""
+    kk = space*(n-i)
+    double = ((2*i) - 1)
+    number = ""
+    l = 0
+    m = 0
+    mm = 0
+    for k in range(i, double+i):
+        
+       if k > double:
+              
+                 
+         
+              l += 1
+              
+              dk = double-l
+              if dk > 9:
+                mm -= 1
+                number += str(mm)
+               
+                
+              
+              else:
+                number += str(dk)
+       
+            
+       elif(k == double):
+           if(k <= 9):
+             number += str(double)
+           else:
+               number += str(m)
+           mm += m
+       
+           
+           
+       else: 
+           
+           if(k > 9):
+               
+               number += str(m)
+               m = m + 1
+           else:
+               number += str(k)
+              
+       
+      
+    pattern = pattern + kk + number
+    print(pattern)
+2/22/23, 20:24 - Avvi: Arey maa mean stack exam link emaina pedithe send cheyy
+2/22/23, 21:00 - </>: Nenu join avvaledhu raa
+2/22/23, 21:02 - Avvi: Mana cse c abbai
+2/22/23, 21:02 - </>: ❤️ daa
+2/22/23, 21:03 - </>: Raa
+2/22/23, 21:03 - Avvi: Madda ra
+2/22/23, 21:03 - Avvi: Enti edhi nenu adigindhi enti nvu cheppedhenti
+2/24/23, 09:00 - Avvi: Arey nenu clg ki raanu
+2/25/23, 17:38 - Avvi: <Media omitted>
+2/25/23, 17:42 - </>: Mosam edhi
+2/25/23, 17:42 - </>: Dhaga
+2/25/23, 17:42 - </>: Dongaa
+2/25/23, 19:46 - </>: arey balaya movie nee phone lo vundha
+2/25/23, 19:46 - </>: enkha
+2/25/23, 20:24 - Avvi: Haa
+2/25/23, 20:25 - </>: vunchu
+2/27/23, 15:28 - Avvi: Missed video call
+2/28/23, 08:22 - </>: Aeykkada
+2/28/23, 08:31 - Avvi: Kankipadu
+2/28/23, 08:34 - </>: Haa
+2/28/23, 08:34 - </>: Raa
+2/28/23, 08:35 - </>: Nagayalanka bus aa
+2/28/23, 08:35 - Avvi: Haa
+2/28/23, 08:36 - </>: Nee pakkkaney vundhi maadhi
+2/28/23, 08:36 - </>: Aagu digikha
+2/28/23, 08:36 - Avvi: Sare
+3/1/23, 15:00 - </>: Buds connect avvaledhu tesuko po
+3/1/23, 15:00 - </>: Vatini vachhi
+3/1/23, 15:00 - </>: Avaru
+3/1/23, 15:00 - </>: Leru
+3/1/23, 15:00 - </>: Csm lab lo vunna
+3/1/23, 21:58 - Avvi: Week 5 programming answers pettu
+3/1/23, 22:02 - </>: haa endhi
+3/1/23, 22:02 - </>: codethebug3@gmail.com
+3/1/23, 22:03 - </>: nvuuey chusuko mail login ayyi
+3/1/23, 22:16 - Avvi: Oori baaboo nvu evudivo kaani idhi verification antundhi
+3/1/23, 22:17 - Avvi: 23
+3/1/23, 22:17 - </>: done
+3/1/23, 22:17 - Avvi: Ha
+3/8/23, 08:26 - Avvi: Bro CNS imp questions pedithe send cheyy bro
+3/8/23, 09:10 - </>: Okk
+3/8/23, 14:41 - </>: <Media omitted>
+3/8/23, 14:41 - </>: <Media omitted>
+3/8/23, 20:03 - Avvi: Arey nptel dhi first problem avvatla petraa
+3/8/23, 20:04 - </>: Aey week baabu
+3/8/23, 20:04 - </>: 6 aa 7 aa
+3/8/23, 20:07 - Avvi: 6
+3/8/23, 20:07 - </>: Ok
+3/8/23, 20:07 - Avvi: 7 th kudaa raasesaava
+3/8/23, 20:08 - </>: Ledhu mid ayyaka chustha
+3/8/23, 20:08 - </>: Tiime ledhy
+3/8/23, 20:14 - </>: n = int(input())
+l = list(map(int,input().split()))
+k = int(input())
+pos = l[k-1]
+l.sort()
+print(l.index(pos)+1)
+3/9/23, 19:29 - </>: Jyosh@143
+3/9/23, 19:29 - </>: password
+3/9/23, 19:57 - Avvi: Chesaa
+3/9/23, 19:57 - Avvi: My learning lo vuntai choodu
+3/9/23, 19:59 - </>: Haa ok
+3/12/23, 17:55 - Avvi: Repu clg undhaa ledhaa
+3/12/23, 18:47 - </>: Ledhu raa
+3/12/23, 18:50 - Avvi: Confirm aa
+3/12/23, 18:50 - Avvi: Harshitha ni adigithe 8:00 ki chepthaa antundhi
+3/14/23, 18:22 - Avvi: <Media omitted>
+3/17/23, 08:34 - Avvi: Bro vellava clg ki
+3/17/23, 08:37 - </>: Haaw
+3/18/23, 20:23 - Avvi: Results antagaa
+3/18/23, 20:24 - </>: haa nata
+3/18/23, 20:24 - </>: anta
+3/18/23, 20:24 - </>: em cheddam mari
+3/18/23, 21:49 - </>: Rey vunnava
+3/18/23, 21:50 - </>: Em kaadhu okkatey
+3/18/23, 22:11 - Avvi: Haa kk
+3/18/23, 22:12 - </>: Em kaadhu mava
+3/18/23, 22:13 - Avvi: Nenem feel avatle
+3/18/23, 22:13 - </>: Ok
+3/18/23, 22:13 - Avvi: Thodunaara andharu pass aa
+3/18/23, 22:13 - </>: Emo
+3/18/23, 22:13 - </>: Bava vunnadu gaa
+3/18/23, 22:13 - Avvi: Maa raghu
+3/18/23, 22:14 - </>: Emo
+3/18/23, 22:29 - </>: Gayatri branch first
+3/18/23, 22:30 - Avvi: Ewww
+3/18/23, 22:30 - Avvi: Cse shake avvale ikaa
+3/18/23, 22:31 - </>: Haa mamulugaa  undaadhu
+3/19/23, 17:46 - </>: nptel week-9 answers
+3/19/23, 17:46 - </>: kavali and second problem solution
+3/19/23, 18:04 - Avvi: Inka raayala time unte cheyy
+3/19/23, 18:04 - Avvi: Naaku konchem work vundhi
+3/19/23, 18:05 - </>: Sare
+3/20/23, 19:56 - </>: 6223551000723
+3/20/23, 19:57 - Avvi: Apspdcl
+3/20/23, 19:57 - Avvi: Idhegaa
+3/20/23, 19:58 - </>: haa ss
+3/20/23, 19:58 - </>: P ani vundhi LOGO lo
+3/20/23, 19:58 - </>: adhey naa
+3/20/23, 19:58 - </>: sadha mee sevalo ani vundhi telugu lo
+3/20/23, 19:58 - Avvi: Adhi apcpdcl
+3/20/23, 19:58 - </>: adhey madhi
+3/20/23, 19:59 - </>: <Media omitted>
+3/20/23, 19:59 - </>: Edhi
+3/20/23, 19:59 - </>: Maadhi
+3/20/23, 20:00 - Avvi: <Media omitted>
+3/20/23, 20:02 - </>: Tq
+3/22/23, 20:12 - </>: arey ee roju festival
+3/22/23, 20:12 - </>: so ee roju ayina chupinchara
+3/22/23, 20:12 - </>: certificate
+3/22/23, 20:44 - Avvi: Evaru sir meeru
+3/22/23, 20:44 - Avvi: Ila vunaarenti
+3/22/23, 20:45 - </>: ala kaadhu mari enni rojulu wait cheyyali
+3/22/23, 20:46 - Avvi: Hold on
+3/22/23, 20:46 - Avvi: For a while
+3/22/23, 20:46 - </>: ok
+3/22/23, 20:46 - Avvi: Iyna ledhuga Ela choopinchanu
+3/22/23, 20:46 - </>: enti neeku ledhu aaa
+3/22/23, 20:46 - Avvi: Certificate
+3/22/23, 20:46 - </>: ayyo ayyo
+3/22/23, 20:47 - Avvi: Thappu thappu ga odhandi
+3/22/23, 20:47 - </>: guddalo petukunnava ledhu antunnavu
+3/22/23, 20:47 - Avvi: Enti eesari baari packages anta
+3/22/23, 20:47 - </>: avadu andhi vaadhu la**da ke baal gaadu
+3/22/23, 20:47 - </>: esakaa ammukovali aadi matalu vintey
+3/24/23, 20:05 - Avvi: <Media omitted>
+3/24/23, 20:08 - </>: <Media omitted>
+3/24/23, 20:08 - Avvi: Tq
+3/25/23, 09:55 - </>: MSCP67302298
+3/25/23, 13:48 - </>: Echhada voucher
+3/25/23, 13:58 - Avvi: Ledh adagala
+3/25/23, 13:58 - Avvi: Adagalsindhena
+3/25/23, 13:59 - </>: Adigitey amma ayina annam pettadhu
+3/25/23, 13:59 - </>: Gaa
+3/25/23, 13:59 - </>: Sarey tuesday adugu ley
+3/25/23, 13:59 - Avvi: Ha
+3/25/23, 13:59 - </>: Haa
+3/25/23, 20:07 - </>: https://us06web.zoom.us/j/86136149710?pwd=dEkxY0YwdmN3SXdFdjgwaExQbGExZz09
+3/25/23, 21:43 - Avvi: <Media omitted>
+3/25/23, 21:48 - </>: Pakkodi company lo photo digitey em vundhi sir kick uu manamey okha company peditey adhi sir kick uu
+3/25/23, 21:48 - </>: Enthaki avadu bahyya eedu
+3/25/23, 21:48 - Avvi: Evado ghottam
+3/25/23, 21:48 - Avvi: LinkedIn lo choosa
+3/25/23, 21:48 - </>: Ohh
+3/25/23, 21:49 - Avvi: Tharwaatha elagoo nvega ani
+3/25/23, 21:49 - </>: Ayitey manam raghu gaditho edit chepinchi tim cook, elon musk tho digudham
+3/25/23, 21:50 - </>: Elanti matalu vintey naaku lavada legeysidhi
+3/25/23, 21:50 - Avvi: Adu chesthe tv9 kuda nammesthafhi
+3/25/23, 21:50 - </>: Atluntundhi
+3/25/23, 21:50 - </>: Maro
+3/25/23, 21:50 - </>: Sarey class vinnava
+3/25/23, 21:50 - </>: Nvuu
+3/25/23, 21:50 - Avvi: Mari aadendhi edhedho chepthunaadu
+3/25/23, 21:50 - </>: Blackbuks
+3/25/23, 21:50 - Avvi: Thokkala chepthunaadu
+3/25/23, 21:51 - </>: Avadu aadu blackbucks
+3/25/23, 21:51 - </>: Haa kadha madhyalo satya comment chusava
+3/25/23, 21:51 - Avvi: Neeku ivanna okati chesthaava
+3/25/23, 21:51 - </>: Haa evvu
+3/25/23, 21:51 - Avvi: Haa raavali ga vaadu
+3/25/23, 21:51 - </>: Herooo  hero hero
+3/25/23, 21:52 - Avvi: <Media omitted>
+3/25/23, 21:52 - Avvi: Answer cheppu
+3/25/23, 21:53 - </>: x em enter chesavu
+3/25/23, 21:53 - Avvi: 5
+3/25/23, 21:53 - </>: Okk
+3/25/23, 21:54 - </>: 22
+3/25/23, 21:54 - </>: I think
+3/25/23, 21:54 - Avvi: Kaadhu
+3/25/23, 21:55 - Avvi: Qlue kaavala
+3/25/23, 21:55 - </>: Ss
+3/25/23, 21:55 - Avvi: Short circuit vaadu
+3/25/23, 22:00 - </>: Raavtla
+3/25/23, 22:01 - Avvi: Sarrigga divide chesaava
+3/25/23, 22:01 - </>: Chetilo phone tappinchi em ledhu
+3/25/23, 22:01 - </>: Naa daggara
+3/25/23, 22:02 - Avvi: Haa sarle
+3/25/23, 22:02 - Avvi: 0 answer
+3/25/23, 22:02 - </>: Endhi
+3/25/23, 22:02 - </>: 0 naa
+3/25/23, 22:02 - Avvi: Adhe
+3/25/23, 22:03 - </>: Mottaniki not apply ayyindhi aa
+3/25/23, 22:03 - </>: Sare ley Kalisinappudu matladtha
+3/25/23, 22:03 - Avvi: Solution kaavala
+3/25/23, 22:03 - </>: Haa
+3/25/23, 22:03 - </>: Ss
+3/25/23, 22:04 - Avvi: Kashtapadu kanipettu
+3/25/23, 22:04 - </>: Sare
+3/25/23, 22:04 - </>: Kanipetti chepputha
+3/25/23, 22:04 - Avvi: Ha
+3/26/23, 08:34 - </>: <Media omitted>
+3/26/23, 08:58 - Avvi: Adhi babulake babu Praveen babu
+3/26/23, 08:58 - Avvi: Enthaina toppers ante anthele
+3/26/23, 10:54 - </>: *CRT registered students for Blackbuck & BrixCosmos*                                                                                                                             The final lists of students under 2 different programs are freezed and published in the groups for your kind reference. The same information is also shared to respective HoDs for attendance consideration during the training programs. The same is also shared to CAS portal to create the payment link. All the 383 (104-Blackbuck + 279-BrixCosmos) students should make the payments for respective training programs through CAS portal link immediately.
+3/26/23, 10:55 - </>: Business edhi yeparam
+3/26/23, 11:07 - Avvi: 104x25000=2,600,000
+3/26/23, 11:08 - Avvi: Idhe baavundhira manam pettedhaama thakkuvalo thakkuva
+3/26/23, 11:08 - </>: 26lakhs aa
+3/26/23, 11:09 - Avvi: Nenu slides create chesthaa practice session petti manamu edho oka yaaparam cheskundhaam
+3/26/23, 11:09 - </>: Haa pedadham kaani first clg gate man daggara nundi chairman varaku permissions kavali
+3/26/23, 11:09 - Avvi: Nvu advertising cheyyy manollaki
+3/26/23, 11:09 - </>: Haa nenu lighting graphics and sound chusukunta
+3/26/23, 11:10 - </>: Haa
+3/29/23, 14:54 - </>: [14:52, 3/29/2023] </>: l = list(map(int,input().split()))
+new = []
+n = max(l)
+for i in range(n+1):
+  if i in l:
+    new.append(i)
+  else:
+    new.append(0)
+for i in range(n+1):
+  print(new[i],end=' ')
+[14:52, 3/29/2023] </>: problem-1
+[14:52, 3/29/2023] </>: def find(x,y,l):
+  min = 99999
+  distance_array = []
+  for i in l:
+    dist = ((x-i[0])**2 + (y-i[1])**2)**0.5
+    distance_array.append(dist)
+    if dist<min:
+      min = dist
+  for i in range(len(distance_array)):
+    if distance_array[i] == min:
+      print(l[i])
+  
+x, y = map(int, input().split())
+n = int(input())
+L = []
+for i in range(n):
+    l = list(map(int, input().split()))
+    L.append(l)
+find(x, y, L)
+[14:52, 3/29/2023] Vaasu Bava: Aict intern ela
+[14:52, 3/29/2023] </>: problem-2
+[14:53, 3/29/2023] </>: kaadhu nenu edho by mistake petta
+[14:53, 3/29/2023] </>: def find(s):
+  new = ""
+  for i in s:
+    if(i.isupper()):
+        new +=i.lower()
+    else:
+        new +=i.upper()
+  return new
+  
+s = str(input())
+print(find(s))
+[14:53, 3/29/2023] </>: problem-3
+3/29/23, 14:56 - </>: l = list(map(int,input().split()))
+new = []
+n = max(l)
+for i in range(n+1):
+  if i in l:
+    new.append(i)
+  else:
+    new.append(0)
+for i in range(n+1):
+  print(new[i],end=' ')
+3/29/23, 14:56 - </>: problem-1
+3/29/23, 14:56 - </>: def find(x,y,l):
+  min = 99999
+  distance_array = []
+  for i in l:
+    dist = ((x-i[0])**2 + (y-i[1])**2)**0.5
+    distance_array.append(dist)
+    if dist<min:
+      min = dist
+  for i in range(len(distance_array)):
+    if distance_array[i] == min:
+      print(l[i])
+  
+x, y = map(int, input().split())
+n = int(input())
+L = []
+for i in range(n):
+    l = list(map(int, input().split()))
+    L.append(l)
+find(x, y, L)
+3/29/23, 14:56 - </>: problem-2
+3/29/23, 14:56 - </>: def find(s):
+  new = ""
+  for i in s:
+    if(i.isupper()):
+        new +=i.lower()
+    else:
+        new +=i.upper()
+  return new
+  
+s = str(input())
+print(find(s))
+3/29/23, 14:56 - </>: problem-3
+3/29/23, 15:06 - </>: 1)2, 2)2, 3)4, 4)1,2, 5)1, 6)2, 7)4, 8)4, 9)4, 10)4
+3/29/23, 15:06 - </>: quiz week 10
+3/29/23, 15:07 - Avvi: Kk
+3/29/23, 15:08 - </>: exam rasava
+3/29/23, 15:08 - </>: microsoft dhi
+3/29/23, 15:08 - Avvi: Eeroju kaadhuga 31
+3/29/23, 15:08 - </>: oo ok
+3/29/23, 15:08 - </>: adhi screen shot ravikanth ki anta pettu okka sari
+3/29/23, 15:09 - Avvi: Edhi appointment msg aa
+3/29/23, 15:09 - Avvi: <Media omitted>
+3/29/23, 15:10 - </>: ss
+3/29/23, 15:10 - Avvi: Haa
+3/29/23, 17:34 - Avvi: Arey Ajay gaadi phone lonchi pettindhi evaru
+3/29/23, 17:35 - Avvi: Cangrats Deepu ani
+3/29/23, 17:35 - </>: Mana vaaley
+3/29/23, 17:35 - </>: Pava gaadu
+3/29/23, 17:35 - Avvi: Pavan aa
+3/29/23, 17:35 - </>: Haa
+3/29/23, 17:35 - </>: Adey
+3/29/23, 17:35 - </>: Nenu personel gaa pegta
+3/29/23, 17:35 - Avvi: Vaaammo kuradiki chaala vundhi iythe
+3/29/23, 17:35 - </>: Haa
+3/29/23, 17:35 - Avvi: Kannesaadu dhaanimeedha
+3/29/23, 17:36 - Avvi: Ha emandhenti
+3/29/23, 17:36 - </>: Avadu aeynni vesina adhi naa raani neney dhani raju
+3/29/23, 17:36 - </>: Ni
+3/29/23, 17:36 - </>: <Media omitted>
+3/29/23, 17:36 - Avvi: Adhenti bayya congrats ante navvuthundhi
+3/29/23, 17:37 - </>: Siggu bayya
+3/29/23, 17:37 - </>: Adhi neek telidh ley
+3/29/23, 17:37 - Avvi: Ohoo
+3/29/23, 17:37 - Avvi: Mari mari
+3/29/23, 17:38 - Avvi: Jyoshmitha kanipinchindhi eeroju
+3/29/23, 17:38 - Avvi: Orange dress
+3/29/23, 17:38 - </>: Aey em mataldatunnavu ra
+3/29/23, 17:38 - Avvi: Adugu kaavalante
+3/29/23, 17:38 - </>: Nenu ninnu nammanu ley
+3/29/23, 17:38 - </>: Arri pukulaga chestavu nannu
+3/29/23, 17:39 - Avvi: Arey nijam ra Saida vaallu match kuda choosa
+3/29/23, 17:39 - </>: Akkada telusu antavu peru cheppavu
+3/29/23, 17:39 - </>: Lavada
+3/29/23, 17:39 - </>: Nvuu deniki vellavu raa
+3/29/23, 17:39 - </>: Clg ki
+3/29/23, 17:39 - Avvi: Sare chesi okka maata eeroju orange dress veskunaava ledhaa anthe
+3/29/23, 17:39 - Avvi: Voorike maa ladies evaraina vuntaaremo ani
+3/29/23, 17:40 - </>: Chetta naa kodaka
+3/29/23, 17:41 - Avvi: Nannu gurthu pattindho ledho theleedhu
+3/29/23, 17:42 - Avvi: Naaku theleekundaane naa cheyy automatic ga hii cheppesindhi
+3/29/23, 17:43 - </>: Arey em cheptunnavu raa
+3/29/23, 22:17 - Avvi: Arey azure administrator raadhaama
+3/29/23, 22:17 - </>: Nenu prepare avvaledhu
+3/29/23, 22:17 - </>: Ayyi raddam antey raddam
+3/29/23, 22:17 - </>: Raa
+3/29/23, 22:17 - Avvi: Nenu avvala try chedhaama antunna
+3/29/23, 22:18 - Avvi: Voucher isthaada aadu
+3/29/23, 22:18 - </>: Kaani voucher time ayyipoyindhi repey last data
+3/29/23, 22:18 - </>: Levu vaadi daggara
+3/29/23, 22:18 - Avvi: Repu adigithe
+3/29/23, 22:18 - </>: Ayina AI engineer rastunnavu gaa
+3/29/23, 22:18 - </>: Raledhu raa vouchuers ayana daggara
+3/29/23, 22:19 - Avvi: Avuna kaanile
+3/29/23, 22:19 - Avvi: Inka raavuga iythe
+3/29/23, 22:19 - </>: Deniki
+3/29/23, 22:19 - </>: Enthaki AI engineer rastunnava mari
+3/29/23, 22:20 - Avvi: Haa adhi line ye
+3/29/23, 22:20 - </>: Ok
+3/29/23, 22:20 - Avvi: Okaroju chaalu edhaina
+3/29/23, 22:20 - </>: Mari enkha administartor  deniki
+3/29/23, 22:20 - </>: Lavada
+3/29/23, 22:20 - </>: Vadhiley ley
+3/29/23, 22:20 - Avvi: Ippdude ace semi-phase raasa
+3/29/23, 22:20 - </>: Google ACE chudu manaki adhi main
+3/29/23, 22:20 - Avvi: Gcp dhi
+3/29/23, 22:21 - </>: Aha
+3/29/23, 22:21 - Avvi: 863 vachaay
+3/29/23, 22:21 - </>: Ayyindha aa mari
+3/29/23, 22:21 - Avvi: Pass
+3/29/23, 22:21 - </>: Haa kummey
+3/29/23, 22:21 - </>: Antey google cloud associate cloud engineer aa
+3/29/23, 22:21 - </>: Nvuu rasindhi
+3/29/23, 22:21 - Avvi: Voucher next two weeks. Lo istaadanta
+3/29/23, 22:22 - Avvi: Haa
+3/29/23, 22:22 - </>: Voucher kosam exam rasava
+3/29/23, 22:22 - Avvi: Haa vaadu theraga isthaada enti
+3/29/23, 22:22 - Avvi: Anni velamandhiki
+3/29/23, 22:23 - Avvi: Filter out chesi voucher vaadiki valuable aa kaadha ani test. Chesi isthaadu
+3/29/23, 22:23 - </>: Ohh ok naaku teliyadhu gaa
+3/29/23, 22:23 - </>: Ok neeku estadu ley
+3/29/23, 22:23 - </>: Ela vundhi test center
+3/29/23, 22:23 - </>: Bagundha
+3/29/23, 22:23 - Avvi: Online
+3/29/23, 22:23 - </>: Ohh
+3/29/23, 22:23 - </>: Ok
+3/30/23, 22:06 - Avvi: Arey ee exam topics lo konni most voted annavi true answers aa leka green box vesi vunnavi true na
+3/30/23, 22:06 - </>: green box lo vi true answers
+3/30/23, 22:07 - Avvi: Mari aa most voted annavi
+3/30/23, 22:07 - </>: fake avi
+3/30/23, 22:07 - </>: antey confuse ayyi avi pedtham ani pettaru ala
+3/30/23, 22:09 - Avvi: <Media omitted>
+3/31/23, 21:53 - </>: Repu vellutunnam
+3/31/23, 21:53 - </>: Clg ki
+3/31/23, 21:53 - </>: Bank vundavu anta ekkada
+3/31/23, 21:54 - </>: 10:40 ki ala veldan
+3/31/23, 21:54 - </>: Veldham
+3/31/23, 21:54 - Avvi: Dabbulesaadayya ma jagan (40680/-) dabbulesaadayya jambalakadi jaarumitaaya
+3/31/23, 21:55 - </>: Kummey mari
+3/31/23, 21:55 - </>: Monna aeyvo paddayi gaaa
+3/31/23, 21:55 - </>: Malli evaa
+3/31/23, 21:55 - </>: Ohh adhi central edhi state kadhu
+3/31/23, 21:58 - Avvi: Haa
+3/31/23, 22:00 - </>: Repu vellutunnam gaa
+3/31/23, 22:00 - </>: Ayitey mari
+3/31/23, 22:01 - Avvi: Haa
+3/31/23, 22:01 - Avvi: Nvu aparichitudu la vunaav ento
+3/31/23, 22:01 - Avvi: Ippudu veldhaam ani
+3/31/23, 22:01 - Avvi: Malli night 12:00 vadhu ani
+3/31/23, 22:01 - Avvi: Malli mrng 4:00 veldhaam ani
+3/31/23, 22:02 - Avvi: Pedha phsyco laa vunaav beta
+3/31/23, 22:02 - </>: ledhu edhi fix lock cheseyndhi computer gaaru
+3/31/23, 22:02 - Avvi: Haa
+3/31/23, 22:08 - Avvi: Arey malli raayana exam
+3/31/23, 22:09 - </>: Raayi raa
+3/31/23, 22:10 - </>: Estadu voucher
+3/31/23, 22:10 - </>: Em kaadhu
+3/31/23, 22:10 - </>: Neeku time vundhi antey
+3/31/23, 22:10 - Avvi: Ha entoola vundhi andhuke
+3/31/23, 22:10 - Avvi: Exams fail iyna intha feel avvala babji
+3/31/23, 22:10 - </>: Antey alagey vuntundhi naaku CDL fail ayyinappudu alaney vundhi
+3/31/23, 22:11 - </>: Haa edhi veru kadha
+3/31/23, 22:11 - </>: Raayi em kaadhu
+3/31/23, 22:11 - Avvi: Aduguthunna mari
+3/31/23, 22:12 - Avvi: Asalu misra cup mukhyam bigilu anna range lo cheppadu ninna
+3/31/23, 22:12 - </>: Avunaaa
+3/31/23, 22:12 - </>: Em kaadhu ley raa
+3/31/23, 22:12 - Avvi: Haa anaadu
+3/31/23, 22:12 - </>: Manam raseydhi pedda exam so estadu
+3/31/23, 22:12 - Avvi: Aduguthaa
+3/31/23, 22:13 - </>: Haa
+3/31/23, 22:13 - </>: Adugu time tesuko prepare avvu ayatadhi
+3/31/23, 22:14 - Avvi: Ledhu Monday ne raastha
+3/31/23, 22:14 - </>: Ok
+3/31/23, 22:14 - </>: All the bestt
+4/2/23, 10:17 - </>: <Media omitted>
+4/2/23, 10:20 - </>: <Media omitted>
+4/2/23, 10:20 - </>: ok naa
+4/2/23, 10:20 - </>: ninna adigavu gaa nano editor lo nee file open cheyyi ani
+4/2/23, 10:20 - </>: chesa
+4/2/23, 10:23 - Avvi: Ha nenedho casual ga adigaa ra
+4/2/23, 10:24 - </>: nenu serious gaa tesukunna
+4/4/23, 19:22 - </>: https://youtu.be/nZCbi2e3cIQ
+4/5/23, 16:30 - </>: <Media omitted>
+4/5/23, 16:52 - </>: Ella vundhi
+4/5/23, 16:53 - </>: Resume
+4/5/23, 17:21 - Avvi: Haa perfect gaane vundhi
+4/5/23, 18:39 - Avvi: Mail password em petaav
+4/5/23, 18:40 - </>: Jyosh@143
+4/5/23, 22:21 - </>: Nvuu pettina exam entidhi
+4/5/23, 22:21 - </>: Azure dhi
+4/5/23, 22:37 - Avvi: Sc-100
+4/5/23, 22:38 - Avvi: Yendhuku
+4/5/23, 22:39 - </>: Nenu pettina exam ki prequisite vundhi so nenu first aa exam rastey ney ee exam certification vastundhi anta
+4/5/23, 22:39 - </>: So change chesukuntunna
+4/6/23, 05:55 - Avvi: So what naaku idhe problem nen raasthunaaga mari
+4/6/23, 07:47 - </>: Neeku em ledhu prequisite
+4/6/23, 07:52 - Avvi: Haa ledhu ye certificate raadhaa ippudu raasthe
+4/6/23, 07:55 - </>: Vastundhi raa
+4/6/23, 07:55 - </>: Andhukey nenu kuda needhi avutunna eppudy
+4/6/23, 08:07 - Avvi: Aa naaku ardham kaaledh saar
+4/6/23, 17:12 - Avvi: Broo parents meeting anta bro 15th na
+4/6/23, 17:12 - </>: vattakaya piko manu naadhi
+4/6/23, 17:12 - </>: vachhi
+4/6/23, 17:12 - </>: vaalani
+4/6/23, 17:13 - </>: we are not kids anymore tell them bloody idiots
+4/6/23, 17:14 - </>: I didn't get any msg about this how you know about this
+4/6/23, 17:15 - Avvi: Parents group lo vunte vasthadhi
+4/6/23, 17:16 - </>: nenu lenu
+4/6/23, 17:16 - </>: nenu vundanu nenu raanu
+4/6/23, 17:19 - Avvi: Drugs theeskunaava 90 vessaava
+4/6/23, 17:19 - </>: no only jagan is good
+4/6/23, 17:19 - </>: i she jagan because jagan is good
+4/6/23, 17:19 - Avvi: Ala kaadhandhi ippatiki ippudu parents meeting endhukanta
+4/6/23, 17:20 - Avvi: Only she
+4/6/23, 17:20 - </>: em denginchukunnaro avadiki telusu
+4/6/23, 17:20 - </>: h silent akkada
+4/6/23, 17:47 - Avvi: <Media omitted>
+4/6/23, 17:47 - Avvi: Ela vundhi
+4/6/23, 17:49 - Avvi: sriavinash8@gmail.com
+4/6/23, 17:49 - Avvi: Avi@2002
+4/6/23, 20:59 - Avvi: Bro we angular enti bro thalakai pothundhi
+4/6/23, 21:06 - </>: Vadhiley raa
+4/6/23, 21:06 - </>: Adhi
+4/7/23, 19:29 - </>: arey emaina problems pettava
+4/7/23, 19:33 - Avvi: Haa kk
+4/7/23, 19:34 - </>: haa
+4/7/23, 19:36 - Avvi: Medium aa hard aa
+4/7/23, 19:36 - </>: As ur wish
+4/7/23, 19:37 - </>: Hard antey doola tiripodi gaa
+4/7/23, 19:38 - Avvi: <Media omitted>
+4/7/23, 19:39 - Avvi: Inka vundhi peduthunna
+4/7/23, 19:39 - Avvi: <Media omitted>
+4/7/23, 19:39 - </>: ok
+4/7/23, 19:39 - </>: ok
+4/7/23, 19:40 - Avvi: <Media omitted>
+4/7/23, 19:40 - Avvi: <Media omitted>
+4/7/23, 19:40 - </>: chaalu
+4/7/23, 19:41 - </>: chaalu
+4/7/23, 19:41 - Avvi: Problem-2 ippudu
+4/7/23, 19:41 - </>: enti idhi anta 1st problem
+4/7/23, 19:41 - </>: aa
+4/7/23, 19:42 - Avvi: <Media omitted>
+4/7/23, 19:42 - Avvi: <Media omitted>
+4/7/23, 19:42 - Avvi: <Media omitted>
+4/7/23, 19:42 - </>: ok
+4/7/23, 19:42 - Avvi: Ippudu problem-3
+4/7/23, 19:42 - </>: nee Yabba apara rey
+4/7/23, 19:44 - Avvi: <Media omitted>
+4/7/23, 19:44 - Avvi: <Media omitted>
+4/7/23, 19:44 - Avvi: <Media omitted>
+4/7/23, 19:44 - Avvi: <Media omitted>
+4/7/23, 19:44 - Avvi: Chaala Inka kaavala
+4/7/23, 19:44 - </>: rey chaalu raa
+4/7/23, 19:44 - Avvi: Problems anta yedhavaki
+4/7/23, 19:44 - Avvi: Ivi cheyy sasthaav
+4/7/23, 19:45 - Avvi: Gundaagi
+4/7/23, 19:45 - Avvi: Inka kaavala very hard level
+4/7/23, 19:45 - </>: vaddu raa
+4/7/23, 19:45 - </>: nvuu topu ok naa
+4/7/23, 19:45 - </>: nenu enni yedavalenu
+4/7/23, 20:22 - </>: m, n = map(int, input().split())
+matrix = [[int(input()) for i in range(m)] for j in range(n)]
+new_matrix = [matrix[i][:] for i in range(m)]
+for i in range(m):
+    for j in range(n):
+        if not matrix[i][j]:
+            new_matrix[i] = [0] * n
+            for k in range(m):
+                new_matrix[k][j] = 0
+for i in range(m):
+    for j in range(n):
+        if not matrix[i][j]:
+            new_matrix[i][j] = matrix[i][max(j - 1, 0)] + matrix[i][min(j + 1, n - 1)] + matrix[max(i - 1, 0)][j] + matrix[min(i + 1, m - 1)][j]
+for i in range(m):
+    print(new_matrix[i])
+4/7/23, 20:22 - </>: ela chestunnavu ee problems dimma tirugutundhi
+4/7/23, 20:22 - </>: naaku
+4/7/23, 20:34 - Avvi: Mari adhi prashanthanga paduko
+4/7/23, 20:34 - </>: ledhu nenu try chestunna
+4/7/23, 20:34 - </>: naaku job kavali
+4/7/23, 20:43 - Avvi: Adhedho cinemaalo antaade Sunil naaku nidrapovaalante evaraina Katha cheppali ledha paata paadali ani
+4/7/23, 20:44 - </>: haa
+4/7/23, 20:48 - </>: n = int(input())
+mat = [[int(input()) for i in range(n)]for j in range(n)]
+res = [[0 for i in range(n)]for j in range(n)]
+for i in range(n):
+    for j in range(n):
+        res[j][i] = mat[i][j]
+if(res==mat):
+    print(True)
+else:
+    print(False)
+4/7/23, 20:48 - </>: problem-2
+4/8/23, 15:25 - Avvi: Bro meeku 11th na exam vundha ledha
+4/8/23, 17:14 - </>: Haa vundhi raa 12:15
+4/8/23, 17:14 - </>: SC-100
+4/8/23, 17:14 - </>: Neeku vundhi gaa malli endhi kottaga
+4/9/23, 20:28 - Avvi: Arey indhulo keywords fault vundhanta ra
+4/9/23, 20:56 - </>: By mistake vachhindhi
+4/10/23, 11:51 - Avvi: Arey principal dhaggaraki eppudu velthaav
+4/10/23, 11:52 - </>: deniki
+4/10/23, 11:52 - </>: katteystha ee lopu money
+4/10/23, 11:52 - </>: adjust chestunna money ni
+4/10/23, 11:52 - Avvi: Elaa padaaya money
+4/10/23, 11:52 - </>: ledhu maa ammama estundhi
+4/10/23, 11:52 - </>: so katteystha
+4/10/23, 11:52 - Avvi: Oo sare sare
+4/10/23, 11:52 - </>: haa
+4/10/23, 11:53 - </>: 13th last date anta gaa
+4/10/23, 11:53 - </>: nvuu kattava
+4/10/23, 11:53 - </>: exam fee
+4/10/23, 11:53 - Avvi: Asalu gurthuledhu ippudu vaadu chesaaduga kadatha repu evening
+4/10/23, 11:53 - </>: haa
+4/10/23, 11:53 - </>: ok
+4/10/23, 11:54 - Avvi: Lekapothe 12 na kadatha 23:58 min ki
+4/10/23, 11:54 - </>: haa adhi endhi
+4/10/23, 11:54 - Avvi: Muhurtham babji adhi anthe
+4/10/23, 11:54 - </>: 13th 3:00
+4/10/23, 11:55 - </>: varaku vundhi
+4/10/23, 11:55 - </>: sare ley
+4/10/23, 11:55 - Avvi: Iythe 13 2:58
+4/10/23, 11:55 - </>: ok
+4/10/23, 11:55 - </>: repu 10:30 ki bus stand ki vachhey
+4/10/23, 11:55 - </>: nvuu
+4/10/23, 11:56 - Avvi: Adhenti meeru bike veskuraraa iythe
+4/10/23, 11:56 - </>: yendalo manaki riding avasrama
+4/10/23, 11:56 - </>: cheppu
+4/10/23, 11:57 - </>: tan ayipotham babji
+4/10/23, 11:57 - Avvi: Ala kudharadhu anna bangara bangara bullet ekki vacheyyra 2 3 42
+4/10/23, 11:57 - Avvi: Haa sarle
+4/10/23, 11:57 - </>: vaddu manaki aa
+4/10/23, 11:57 - </>: hayiga bus aeykitey 30 mins lo vuntam akkaada
+4/10/23, 11:58 - Avvi: Adhe better le
+4/10/23, 11:58 - </>: haa
+4/10/23, 15:41 - </>: To earn the Microsoft Cybersecurity Architect Expert certification, candidates must also pass one of the following exams: SC-200, SC-300, AZ-500, or MS-500. We strongly recommend that you do this before taking the SC-100 exam.
+4/10/23, 15:43 - </>: <Media omitted>
+4/10/23, 15:57 - Avvi: Arey naaku ippatiki interest ledhu repati exam ki so edho voucher theeskunaam kabatti rasthunaam
+4/10/23, 15:57 - Avvi: Vasthe vasthadhi lekapothe ledhu
+4/10/23, 15:58 - </>: nenu vadhili dengi 30 mins ayyindhi
+4/10/23, 15:58 - </>: naa **dalo exam
+4/10/23, 15:58 - Avvi: Haa anthe
+4/10/23, 15:58 - </>: haa
+4/10/23, 15:58 - Avvi: Raghu phone chesaada
+4/10/23, 15:58 - </>: ledhu
+4/10/23, 15:58 - </>: yy
+4/10/23, 15:59 - Avvi: Emo naaku chesaadu entaa ani
+4/10/23, 16:00 - </>: enti anta
+4/10/23, 16:00 - </>: vaadi badha
+4/10/23, 16:04 - Avvi: 12 nunchi rammantundu
+4/10/23, 16:05 - </>: haa ok ani cheppu
+4/10/23, 23:59 - Avvi: Broo happy birthday broo 🥳🎂🥳🎉🎂
+4/10/23, 23:59 - </>: Tq
+4/10/23, 23:59 - </>: Bro
+4/11/23, 00:02 - </>: Rey chetta naa kodaka
+4/11/23, 00:02 - </>: Group lo aeyndhuku pettavu raa
+4/11/23, 00:02 - </>: Nvuu
+4/11/23, 00:02 - </>: Rey tesey raa
+4/11/23, 00:03 - </>: Naa life lo vunna daridram chaalu raa
+4/11/23, 00:03 - </>: Mali eppudu dhani nvuu andhariki cheppavu
+4/11/23, 00:03 - Avvi: Ledhu ala kaadhu
+4/11/23, 00:04 - </>: Arey vaddu raa
+4/11/23, 00:04 - </>: Pls rra
+4/11/23, 00:04 - Avvi: Haa sare sare
+4/11/23, 00:04 - </>: Enkha em matladaku
+4/11/23, 00:04 - </>: Group lo
+4/11/23, 00:04 - </>: Ok naa
+4/11/23, 00:05 - Avvi: Ha sare
+4/11/23, 00:05 - Avvi: Inka ala kaadhu oka baadha vuntadhi naaku kuda
+4/11/23, 00:05 - Avvi: Papam party ki dabbulevu kanisam idhi iyna jaragaali ani naaku vuntadhi
+4/11/23, 00:05 - </>: Sare edho okati eduvu
+4/11/23, 00:05 - </>: Ledhu ley raa
+4/11/23, 00:06 - </>: Naaku em vaddu naa lavada lo bday
+4/11/23, 00:06 - </>: Em vundhi
+4/11/23, 00:06 - </>: Naa sulla lo dhi
+4/11/23, 00:06 - Avvi: Inthaki atu nunchi emaina cheppaara
+4/11/23, 00:06 - Avvi: Adhele
+4/11/23, 00:06 - </>: Haa
+4/11/23, 00:06 - </>: Ayyindhi
+4/11/23, 00:06 - </>: Aa darshnam
+4/11/23, 00:06 - </>: Andhukey eppati dakha vunna
+4/11/23, 00:06 - Avvi: Yaaay! 🥳
+4/11/23, 00:06 - </>: Online lo
+4/11/23, 00:07 - Avvi: Nenu andhuke one min mundhe  wishes cheppa
+4/11/23, 00:07 - Avvi: 12 ki vere appointment ani
+4/11/23, 00:07 - </>: Haa
+4/11/23, 00:07 - </>: Tq
+4/12/23, 17:44 - Avvi: <Media omitted>
+4/12/23, 17:45 - </>: Kingu kingu koduku
+4/12/23, 17:45 - </>: Adey no.1
+4/12/23, 17:45 - </>: Pant bagundhi
+4/12/23, 17:46 - </>: Size fitting bageney vundhi gaa neeku
+4/12/23, 17:46 - Avvi: Haa saripoyindhi
+4/12/23, 17:47 - </>: Haa
+4/12/23, 17:47 - </>: Bagunnavu raa manchi volova bus laga
+4/12/23, 17:47 - Avvi: Repu mrng ye podhaama
+4/12/23, 17:48 - Avvi: Late gaana
+4/12/23, 17:48 - </>: Nee estam
+4/12/23, 17:48 - Avvi: 9ki clg lo vundhaam
+4/12/23, 17:48 - </>: Maa amma antundhi
+4/12/23, 17:48 - </>: Edhey
+4/12/23, 17:48 - Avvi: Yenda
+4/12/23, 17:48 - </>: Yendana padaru appudu
+4/12/23, 17:48 - Avvi: Manam ekkada chasthaam
+4/12/23, 17:49 - </>: Haa
+4/12/23, 17:49 - </>: 9:00 ki clg lo vundham
+4/12/23, 17:50 - </>: Ok naa
+4/12/23, 18:02 - Avvi: Tk
+4/14/23, 09:59 - Avvi: <Media omitted>
+4/14/23, 09:59 - Avvi: Ammai
+4/14/23, 10:00 - </>: Cingrats raa
+4/14/23, 10:00 - </>: Congrats raa
+4/14/23, 10:00 - </>: Mee akka ki cheppu
+4/14/23, 10:01 - Avvi: 👍
+4/14/23, 10:01 - </>: Mavayya
+4/14/23, 10:01 - </>: Chain echhey enkha nvui
+4/14/23, 10:01 - </>: Nvuu
+4/14/23, 10:01 - Avvi: Edhi okasaari malli anamma
+4/14/23, 10:02 - </>: mavayyya
+4/16/23, 15:13 - </>: Rey
+4/16/23, 15:13 - </>: Rey
+4/16/23, 15:14 - </>: Neeku aeyndhuku raa
+4/16/23, 15:14 - </>: Malli anni neetho chepistaru
+4/16/23, 15:14 - </>: Pettaku group lo
+4/16/23, 15:14 - </>: Vadeysukuntaru ninnu
+4/16/23, 15:14 - </>: Avasarama
+4/16/23, 15:14 - </>: Prathi okkadu neekey phone chestadu
+4/18/23, 18:55 - </>: Chesava
+4/18/23, 18:56 - </>: Just remaind chesa
+4/18/23, 18:59 - Avvi: Inka ledhu
+4/18/23, 19:00 - </>: Ok
+4/18/23, 19:10 - </>: rey rey
+4/18/23, 19:10 - </>: em pettaku
+4/18/23, 19:10 - </>: raa
+4/18/23, 19:11 - Avvi: Idhendhi pushpa rendu nimishaalu mundhe cheppali ga
+4/18/23, 19:12 - </>: em kaadhu baga echhavu vadiki
+4/18/23, 19:23 - Avvi: null
+4/18/23, 19:23 - </>: Congrats raa
+4/18/23, 19:26 - Avvi: Manadhe idhanthaa
+4/18/23, 19:27 - </>: haa dunney
+4/18/23, 19:29 - </>: adhi chudu letter
+4/18/23, 21:18 - </>: <Media omitted>
+4/18/23, 21:26 - </>: Arey marchipoku raa
+4/18/23, 21:27 - Avvi: Nee adress petttu
+4/18/23, 21:27 - Avvi: Nee address petturaa
+4/18/23, 21:28 - </>: 2-21/1,Ramalayam Street, S.N.Gollapalem,Machilipatnam.
+4/18/23, 21:29 - </>: Krishna Dist,Andhra Pradesh,India
+4/18/23, 21:47 - Avvi: Oasis dhi ok na
+4/18/23, 21:47 - </>: GM aa AGM aa Role naadhi
+4/18/23, 21:47 - </>: Ok raa
+4/18/23, 21:48 - </>: Letter laga vundali not a certificate template
+4/18/23, 21:48 - </>: Nvuu pettavu chudu alagaa
+4/18/23, 21:53 - Avvi: Nenu pettinai ante dorakadam kashtam
+4/18/23, 21:53 - Avvi: <Media omitted>
+4/18/23, 21:53 - Avvi: Template ye bommalu bommalu ga baaguntai
+4/18/23, 21:53 - </>: Avunaa
+4/18/23, 21:53 - Avvi: Alaative kaavala
+4/18/23, 21:54 - </>: Haa try cheyyi
+4/18/23, 21:54 - </>: Formal gaa vuntundhi
+4/18/23, 21:54 - </>: Konchem
+4/18/23, 21:55 - Avvi: Template endhuku odhu
+4/18/23, 21:55 - </>: Bagoledhu adhi
+4/18/23, 21:56 - </>: Canva lo edit  cheyachu adhi Ayitey
+4/18/23, 21:56 - Avvi: Stuff kaavala
+4/18/23, 21:56 - </>: Haa masala vada
+4/18/23, 21:56 - </>: Vundali manaki
+4/18/23, 21:56 - Avvi: Gayathri chepthaane vundhi attendance chooskoraa ani
+4/18/23, 21:56 - Avvi: Ee pedhamanishi mem evaram antaa....
+4/18/23, 21:57 - </>: Haa naaku em telusu andi 75% below ani nenu 65% anukunna
+4/18/23, 21:57 - </>: Sare sare nannu dengaku ee okka sariki kaapadu nannu
+4/18/23, 21:57 - </>: Nee banchat dora
+4/18/23, 22:00 - Avvi: Raghu kuda template choosthadu iythe
+4/18/23, 22:00 - </>: Cheppa adiki kuda
+4/18/23, 22:00 - </>: Naaku template vaddu nee laga chesindhi kavali mee  company anna sign vundali ani
+4/18/23, 22:02 - Avvi: Cheppura nvu nenu. Vethukuthunaana
+4/18/23, 22:02 - </>: Ardham kala
+4/18/23, 22:02 - </>: <Media omitted>
+4/18/23, 22:03 - </>: Ee  type chudu
+4/18/23, 22:03 - Avvi: Idhi offer letter
+4/18/23, 22:03 - </>: Haaa adhi veru aa
+4/18/23, 22:03 - Avvi: Ilaantivi ante dhobbadhu ikkada
+4/18/23, 22:03 - </>: Chee Chee naa brathuku
+4/18/23, 22:03 - Avvi: Max template thone manage cheygalam raaja
+4/18/23, 22:03 - </>: Sarey sarey chudu edho okati
+4/18/23, 22:03 - </>: Arey arey  ala kaadhu
+4/18/23, 22:03 - </>: Raa
+4/18/23, 22:04 - Avvi: Naadhe edit chesko iythe
+4/18/23, 22:04 - </>: Word lo nee intern letter mottam copy chesi paste cheyyana
+4/18/23, 22:04 - </>: Ala ayitey set uu kadha
+4/18/23, 22:04 - </>: Pettu
+4/18/23, 22:04 - Avvi: Haa edhi okati kottu
+4/18/23, 22:05 - </>: Haa kodtha pettu
+4/18/23, 22:05 - Avvi: LinkedIn lo download cheyy clarity vasthadhi
+4/18/23, 22:05 - </>: Entidhi
+4/18/23, 22:05 - Avvi: Nenu pedithe clear vundadhu
+4/18/23, 22:05 - </>: Ok
+4/18/23, 22:53 - </>: <Media omitted>
+4/18/23, 22:55 - Avvi: Is that naaptol product
+4/18/23, 22:56 - </>: baledja
+4/18/23, 22:56 - </>: baledha
+4/18/23, 22:57 - Avvi: Baala chendaalam nve edit chesaav annatundhi
+4/18/23, 22:58 - </>: haa neney gaa chesindhi mari
+4/18/23, 22:58 - Avvi: Nee condonation anesariki mind dhengindhaa enti
+4/18/23, 22:59 - Avvi: Naa letter lo name Inka roll num maarchamanna
+4/18/23, 22:59 - </>: haa
+4/18/23, 22:59 - </>: ok
+4/18/23, 22:59 - Avvi: Word lo kaadhu paint lo try cheyy
+4/18/23, 22:59 - </>: haa
+4/18/23, 22:59 - </>: ok
+4/19/23, 06:26 - </>: <Media omitted>
+4/19/23, 06:31 - Avvi: Ha done
+4/19/23, 06:31 - </>: haa
+4/19/23, 06:31 - </>: vaadu pedda jaadhu gaadi laga vunnadu
+4/19/23, 06:32 - Avvi: Jaffa gaadura
+4/19/23, 06:32 - Avvi: Rendu bengudhaam aagu
+4/19/23, 06:32 - </>: hahahaha
+4/19/23, 06:32 - Avvi: Eeroju
+4/19/23, 06:32 - </>: raadu anta
+4/19/23, 06:32 - </>: workalohic ayyadu anta
+4/19/23, 06:33 - Avvi: Eedu inko Peru petaada
+4/19/23, 06:33 - </>: vaadu night available gaa vuntadu day ayitey kastam
+4/19/23, 06:33 - </>: haa
+4/19/23, 06:33 - Avvi: Rogam vasthe bhumi meedha Leni perlu
+4/19/23, 06:33 - </>: hahahah
+4/19/23, 06:33 - </>: start ayyava
+4/19/23, 06:33 - Avvi: Saavani mani Pani iyyindhi ga chaalu
+4/19/23, 06:33 - Avvi: Ayya
+4/19/23, 06:34 - </>: gaa adhey happy
+4/19/23, 06:34 - </>: ok
+4/20/23, 14:58 - </>: Vundhi naa record
+4/21/23, 19:55 - </>: arey intiki vellaka
+4/21/23, 19:55 - </>: aa angular code pics and pdf  naku pettu
+4/21/23, 19:56 - </>: nenu chusukunta
+4/21/23, 19:56 - </>: avadu phone chesina naa peru cheppu
+4/21/23, 19:57 - Avvi: <Media omitted>
+4/21/23, 19:57 - Avvi: <Media omitted>
+4/21/23, 19:57 - Avvi: <Media omitted>
+4/21/23, 19:57 - Avvi: <Media omitted>
+4/21/23, 19:57 - Avvi: <Media omitted>
+4/21/23, 19:57 - Avvi: <Media omitted>
+4/21/23, 19:57 - Avvi: <Media omitted>
+4/21/23, 19:57 - Avvi: <Media omitted>
+4/21/23, 19:57 - </>: session-1 pdf pettu
+4/21/23, 19:57 - </>: chaalu
+4/21/23, 19:58 - Avvi: Adhi. Group lo pettaga
+4/21/23, 19:58 - Avvi: Anthe vunaadhi section 1
+4/21/23, 19:58 - </>: Ok
+4/21/23, 19:58 - </>: Ok
+4/22/23, 14:44 - Avvi: Ee raghu gaadu choodu ippude Infosys account create chesaadanta main exam+ prerequisites kuda nene cheyaalanta
+4/22/23, 14:58 - </>: Lavada pattukomanu vachhi
+4/22/23, 14:58 - </>: Kudharadhu ani cheppu ra
+4/22/23, 14:59 - </>: Hey nvuu aa infosys antey ney phone petti dengu
+4/22/23, 14:59 - </>: Ledha naa peru cheppu
+4/22/23, 14:59 - </>: Nenu chusukunta
+4/22/23, 19:49 - </>: Nenu raanu ley raa monday
+4/22/23, 19:49 - </>: Inti kada koddiga panulu vunnayi
+4/22/23, 19:49 - Avvi: Haa ok
+4/22/23, 19:50 - </>: Adhey 100 days work antaru chudu avi start
+4/22/23, 19:50 - Avvi: Bodhula pani
+4/22/23, 19:50 - </>: Haa avey
+4/22/23, 19:50 - </>: Nvuu clg ki vellaku room lo vundu
+4/22/23, 19:50 - Avvi: Haa adhe chesthaa
+4/22/23, 19:50 - </>: Haa
+4/22/23, 19:50 - </>: Money atm lo veyyi
+4/22/23, 19:51 - Avvi: Haa ok
+4/22/23, 19:51 - </>: Just remind chesa
+4/23/23, 09:43 - </>: Ok
+4/23/23, 09:43 - </>: Done
+4/23/23, 16:48 - Avvi: Nptel hall ticket pettu okasari
+4/23/23, 16:48 - Avvi: Needhi
+4/23/23, 17:47 - </>: Data ledhu
+4/23/23, 17:47 - </>: Nvuey download cheyyi
+4/23/23, 17:47 - </>: Naadhi
+4/23/23, 18:06 - </>: <Media omitted>
+4/23/23, 18:29 - </>: arey adhi gayatri dhi sign horizontal gaa padindhi
+4/23/23, 18:29 - </>: em kaadhu gaa
+4/23/23, 18:46 - Avvi: Em kaadhule
+4/23/23, 18:46 - </>: haa
+4/23/23, 18:46 - </>: ok
+4/23/23, 18:46 - Avvi: Arey evaro le antaraa mana class
+4/23/23, 18:46 - Avvi: Vaalla akkatho phone chepinchi code enti ani ooke aduguthunaaru
+4/23/23, 18:47 - </>: na peru cheppu raa
+4/23/23, 18:47 - Avvi: Haa chepthunna aagu
+4/23/23, 18:57 - Avvi: Chesaraa
+4/23/23, 18:57 - Avvi: Phone u
+4/23/23, 18:58 - </>: haa 1 minutes lo ayyipoyindhi matter
+4/23/23, 18:58 - </>: ela ayitey neeku saavey raa
+4/23/23, 18:58 - </>: confirm
+4/23/23, 18:59 - </>: mataldam
+4/23/23, 21:02 - </>: edhi gurtupettuko naaku teliyakunda avadikaina or denikaina exam rasavo naa kodaka enkha antey chepputunna
+4/23/23, 21:02 - </>: edhi grtupettuko
+4/23/23, 21:02 - </>: antey chestavu chikatlo chitakottudu panulu
+4/23/23, 21:04 - Avvi: Cha cha alaantivi cheyyanu
+4/23/23, 21:04 - Avvi: Maakemaina naraala weekness anukunaava
+4/23/23, 21:05 - </>: chestey enkha antey chepputunna edhi serious
+4/23/23, 21:05 - Avvi: Ha ok ok
+4/23/23, 21:05 - </>: haa avunu raa adhi aeyppudiatey neeku phone chesindhi oo appudu ardhamaindhi neeku naralu weekness ani
+4/23/23, 21:06 - </>: ammo eedu blue ticks off chesadu
+4/23/23, 21:06 - Avvi: Manaki sidhartha okkate weekness
+4/23/23, 21:06 - </>: ok
+4/23/23, 21:06 - </>: carry on
+4/23/23, 21:06 - Avvi: Avunaa alantidhi ledhe
+4/23/23, 21:07 - </>: blue ticks off ayyayi
+4/23/23, 21:08 - Avvi: Chey ledh ehe
+4/23/23, 21:08 - </>: sare leave it
+4/23/23, 21:08 - </>: carry on
+4/23/23, 21:08 - Avvi: Leave it aa
+4/23/23, 21:08 - Avvi: Naaku address pettu nvu
+4/23/23, 21:08 - Avvi: Maaku iiyina karchu 70000
+4/23/23, 21:09 - Avvi: Nvu address pettu
+4/23/23, 21:09 - </>: bro avaru meeru
+4/23/23, 21:09 - Avvi: Nvu audio vinaledh kadhaa bale vuntadhi
+4/23/23, 21:09 - </>: 2-21/1,red light, shakeela street , shantha Bhai
+4/23/23, 21:09 - </>: pettu audio
+4/23/23, 21:10 - Avvi: Insta lo vasthai le vinu eesari
+4/23/23, 21:10 - </>: haa
+4/23/23, 21:10 - </>: ok
+4/26/23, 07:45 - </>: Account lo 200/- vuntey koddiga recharge cheyyava
+4/26/23, 07:45 - </>: 7569993454
+4/26/23, 07:45 - </>: Jio 209/- pack
+4/26/23, 07:45 - </>: Saturday estha neeku cash
+4/26/23, 18:39 - </>: <Media omitted>
+4/26/23, 20:21 - Avvi: Bro virupaksha deyyala cinema anta
+4/26/23, 20:21 - Avvi: Naakento vellali anipisthundhi
+4/26/23, 20:27 - </>: Mamulugaa ledhu
+4/26/23, 20:27 - </>: Movie uchha padutundhi chusinatha sepu
+4/26/23, 20:27 - </>: Telusaaa
+4/26/23, 20:27 - </>: Assalu climax twist and aa train twist keka
+4/26/23, 20:28 - </>: One of the best movie recent time lo chusinatha vatilo
+4/26/23, 20:35 - Avvi: Ippudu piracy choosthe quality thakkuva em cheyyali
+4/26/23, 20:35 - Avvi: Massoda kante danger aa
+4/26/23, 20:36 - </>: Inchu minchu alaney vundhi but concept eppati varaku raledhu
+4/26/23, 20:36 - </>: And tiwst lu bagunnayi
+4/26/23, 20:36 - </>: Nenu pedtha chudu quality bagundhu
+4/26/23, 20:36 - Avvi: Haa petu
+4/26/23, 20:38 - </>: Telegram lo petta
+4/26/23, 20:38 - </>: Chudu
+4/26/23, 21:05 - Avvi: Adhe chetho evil dead the rise ani oka movie emaina thagilithe send chryy
+4/26/23, 21:29 - </>: Haa vundhi endhi adhu
+4/26/23, 21:29 - </>: Adhi seen lu vuntayi aaa
+4/26/23, 21:55 - Avvi: Vundochu
+4/26/23, 21:56 - Avvi: Neelanti mass vaallaki iythe ardham kaadhu naalaga btech mbbs vallaki ardhamaithadhi
+4/26/23, 21:58 - </>: sare sare sare
+4/26/23, 21:58 - </>: nvuu velli chusukoo
+4/28/23, 12:08 - </>: <Media omitted>
+4/28/23, 15:46 - </>: <Media omitted>
+4/28/23, 17:05 - Avvi: <Media omitted>
+4/28/23, 17:06 - Avvi: <Media omitted>
+4/28/23, 22:07 - </>: https://storeinfinity.in/
+4/28/23, 22:10 - </>: vaadu cheyyala edhi
+4/28/23, 22:35 - Avvi: Baavundhi
+4/28/23, 22:37 - </>: site aa
+4/28/23, 22:37 - </>: antha react app vaadu okkadey chesadu antey nammachha
+4/28/23, 22:37 - </>: manam
+4/28/23, 22:39 - Avvi: Akkada react em ledhu
+4/28/23, 22:39 - Avvi: Vaadu okkade ante kachithanga cheyledhu
+4/28/23, 22:39 - </>: haa
+4/28/23, 22:39 - </>: ok
+4/28/23, 22:40 - Avvi: Adhem ledhraa neeku chepthaa aagu mondya
+4/28/23, 22:40 - </>: ok
+4/28/23, 22:40 - </>: sare ley repu time ki vellu
+4/28/23, 22:40 - Avvi: Adhe bayam
+4/28/23, 22:41 - Avvi: Vaadu bike kuda veskuraadanta
+4/28/23, 22:41 - Avvi: Nenu ellundi exam ki veella room lone vundipothaa
+4/28/23, 22:41 - </>: avunaa
+4/28/23, 22:42 - </>: sare tavaraga vellu 9:00 ki alla center ki
+4/28/23, 22:43 - </>: aa pani cheyy
+4/28/23, 22:43 - Avvi: Ha ok
+4/28/23, 22:43 - </>: ok
+4/28/23, 22:48 - </>: week-4 magic square formula - n(n^2+1)/2 and 'N' must be odd
+4/28/23, 22:53 - Avvi: Adhenti em problem
+4/28/23, 22:54 - </>: week 4 lo vundhi dhani trick adhi
+4/28/23, 22:55 - </>: NxN matric adhi magic sqaure avvali antey n will be odd and sum of each column,row,diagonal = n(n^2+1)/2
+4/28/23, 22:56 - Avvi: Hoo done
+4/30/23, 21:32 - Avvi: Arey ippudu calci ammithe entha theeskuntaadu
+4/30/23, 21:32 - Avvi: Sry entha isthaadu
+4/30/23, 21:58 - </>: Emo raa
+4/30/23, 21:59 - </>: Calci aa
+4/30/23, 21:59 - </>: Mee tammuduki use ayiddi vunchu raa
+4/30/23, 21:59 - Avvi: Kaadhu chinna Pani
+4/30/23, 21:59 - Avvi: Bandar lo theeskuntaaduga
+4/30/23, 22:00 - Avvi: Emaina idea vundha ani
+4/30/23, 22:00 - </>: Avadu tesukodu raa
+4/30/23, 22:00 - </>: Ledhu
+4/30/23, 22:00 - </>: Ledhu
+4/30/23, 22:00 - Avvi: Avuna
+4/30/23, 22:00 - </>: Text book antey OK
+4/30/23, 22:00 - </>: Calci avadu konadu
+4/30/23, 22:00 - </>: Kavalantey juniors ki ammudham
+4/30/23, 22:00 - Avvi: Book stall vaade konaadu okasari
+4/30/23, 22:00 - Avvi: Bachupeta lo
+4/30/23, 22:01 - </>: Enti emaina money avasarama
+4/30/23, 22:01 - Avvi: Anjaneya book store lo
+4/30/23, 22:01 - </>: Avunaa
+4/30/23, 22:01 - </>: Sare nenu kanukunta ley
+4/30/23, 22:02 - Avvi: Kaadhu replacement of one old calci into another calci with min rante on discount
+4/30/23, 22:02 - Avvi: Kanukko
+4/30/23, 22:02 - </>: tagava enti
+4/30/23, 22:02 - </>: Emaina
+4/30/23, 22:02 - Avvi: Light ga
+4/30/23, 22:02 - Avvi: String
+4/30/23, 22:02 - </>: Lavada lo matalu mataldatunnavu
+4/30/23, 22:03 - </>: Avadu konadu aa claci
+4/30/23, 22:03 - </>: Ayina manam aeyppudu raa calci konnam
+4/30/23, 22:03 - Avvi: Enti bro antha maata anav
+4/30/23, 22:03 - </>: First year oo ledhu gaa
+4/30/23, 22:03 - </>: Haa konadu raa
+4/30/23, 22:03 - Avvi: Repu chappal veskura
+4/30/23, 22:04 - Avvi: Endhukante nenu chappal ye kaabatti
+4/30/23, 22:04 - </>: Haa vesuku vastha
+4/30/23, 22:04 - </>: Raa
+4/30/23, 22:04 - </>: Spark aa
+4/30/23, 22:04 - Avvi: Haa Ave
+4/30/23, 22:04 - </>: Haa naa style marindhi naa nadaka marindhi
+4/30/23, 22:04 - Avvi: 🥲
+4/30/23, 22:05 - </>: Naa route marindhi naa maata marindhi
+4/30/23, 22:05 - </>: Yo Yo Yo oh oh oh......
+4/30/23, 22:06 - Avvi: Cns 1,2 3 experiments pettu
+4/30/23, 22:06 - Avvi: Raayali
+4/30/23, 22:06 - Avvi: <Media omitted>
+4/30/23, 22:06 - </>: Arey nvuu 10:40 ki velthava
+4/30/23, 22:06 - Avvi: 9 ki vethaa
+4/30/23, 22:06 - </>: Naa daggara levu dengey
+4/30/23, 22:06 - </>: PT vuntadu cheppu lu antey
+4/30/23, 22:06 - Avvi: Nvu thappa evaru pedathaaru
+4/30/23, 22:07 - Avvi: Aa cheppultho minguthaa vaadini
+4/30/23, 22:07 - Avvi: Varsham lo shoes endhi
+4/30/23, 22:08 - </>: Haa aeyndhuku vachindhi manaki vaadi tho 10:00 taravtha vellu naa Mata vini
+4/30/23, 22:08 - </>: Harshitha ki evu record correction chesiddi
+4/30/23, 22:08 - </>: Levu raa
+4/30/23, 22:09 - </>: Google chesuko aa experiments
+4/30/23, 22:09 - </>: <Media omitted>
+4/30/23, 22:10 - Avvi: Mari record correction
+4/30/23, 22:10 - Avvi: Nvu raava enti vellu entunaav
+4/30/23, 22:10 - </>: Lavada raa
+4/30/23, 22:10 - </>: 10:40 ki vastha
+4/30/23, 22:14 - Avvi: Bro mrng group Edo sum pettav nve kadhaa
+4/30/23, 22:14 - Avvi: Blackbucks dhi
+4/30/23, 22:14 - </>: Haa
+4/30/23, 22:14 - </>: It's mee
+4/30/23, 22:14 - </>: Adhi gaya3 ki petta poyi by mistake vachindhi
+4/30/23, 22:15 - </>: Delete chesanu gaa
+4/30/23, 22:15 - </>: Ayina
+4/30/23, 22:15 - Avvi: Haa nee address pettu urgent ga
+4/30/23, 22:15 - </>: You deleted this message
+4/30/23, 22:15 - </>: Haa neney raa
+4/30/23, 22:16 - Avvi: Haa nee Instagram I'd pettu
+4/30/23, 22:16 - </>: All_India_Andhagadu
+5/1/23, 06:22 - Avvi: Arey clg vundha confirm aa
+5/1/23, 06:32 - </>: vundhi raa
+5/1/23, 06:32 - </>: ma chelli ki kuda undhi
+5/1/23, 06:34 - Avvi: Ha ok
+5/1/23, 06:34 - </>: mm
+5/1/23, 22:34 - </>: Nee gudda aeykkada agatledhu gaa assalu
+5/1/23, 22:36 - Avvi: Ante adhi evaru dhengaleru
+5/1/23, 22:36 - Avvi: Voorike pettale
+5/1/23, 22:36 - </>: Ledhu babaji Ala kaadhu
+5/1/23, 22:37 - </>: Eppatakiey nee medha chala yedupu vundhi
+5/1/23, 22:37 - </>: Malli aeyndhuku edhi antha
+5/1/23, 22:37 - </>: Nvuu aa musugu lo vuntey ney baguntundhi
+5/1/23, 22:37 - Avvi: Ha sare sare theeseyna msg lu
+5/1/23, 22:38 - </>: Vellipo aa dark spot ki
+5/1/23, 22:38 - </>: Vaddu vadhiley le
+5/1/23, 22:38 - </>: Ala
+5/1/23, 22:38 - </>: Malli em pettaku
+5/1/23, 22:38 - Avvi: Haa ok
+5/1/23, 22:38 - </>: Ninney adugutaru dhani gurinchi malli
+5/1/23, 22:38 - </>: Deniki manaki aa motha
+5/1/23, 22:38 - </>: Cheppu
+5/1/23, 22:38 - </>: Ani antey
+5/1/23, 22:39 - Avvi: Emledh paid kadha
+5/1/23, 22:39 - </>: Aa CR gaadu HOD ki Anni chepputunnadu
+5/1/23, 22:39 - Avvi: Evaraina use cheskuntaarani andhulo pedha company
+5/1/23, 22:39 - </>: Antha money kavalsina vaalu avaru leru mana class
+5/1/23, 22:39 - </>: Lo OK naa
+5/1/23, 22:40 - Avvi: Ha sare iyna avvadhu le
+5/1/23, 22:40 - Avvi: Select avvali interview vuntadhi
+5/1/23, 22:40 - </>: Haa OK
+5/1/23, 22:40 - Avvi: Kaani pettanu le
+5/1/23, 22:40 - </>: Adhi antha valaki teliyadhu ninney cheyyamantaru
+5/1/23, 22:40 - </>: Chudu
+5/1/23, 22:40 - </>: Bro resume cheyyi bro ani
+5/1/23, 22:41 - Avvi: Haa
+5/3/23, 19:52 - Avvi: Repu labs em levugaa
+5/3/23, 20:02 - </>: Levu
+5/3/23, 20:20 - Avvi: Haa ok
+5/3/23, 21:29 - </>: Friday veldhama
+5/3/23, 21:30 - </>: Hod sign anta
+5/3/23, 21:30 - </>: Naaku ayitey vellalani ledhu
+5/3/23, 21:30 - </>: Dhani sign kosam avadu veltadu
+5/4/23, 06:17 - Avvi: Avasaram ledh le
+5/4/23, 06:17 - Avvi: Lab iythe ne veldhaam
+5/4/23, 06:45 - </>: Haa ok
+5/4/23, 18:51 - Avvi: Meeku big data lab ledha bro
+5/4/23, 18:54 - </>: ledhu bro
+5/4/23, 21:56 - Avvi: Arey inko intern vundhi pettana group lo Oasis lantidhi
+5/4/23, 21:59 - </>: Vaddu
+5/4/23, 21:59 - </>: Motha endhuku
+5/4/23, 22:00 - Avvi: Ha ok
+5/4/23, 22:00 - Avvi: Ante free ye kadha
+5/4/23, 22:00 - </>: Sare pettu
+5/4/23, 22:00 - </>: Free ayitey
+5/5/23, 07:15 - </>: mee friend edho adugutunnadu chudu group lo
+5/5/23, 10:41 - Avvi: Pen okati theeskura
+5/5/23, 11:05 - </>: Vundhey okati
+5/5/23, 11:05 - </>: Raa
+5/5/23, 11:06 - </>: Kavala eppudu
+5/5/23, 11:08 - Avvi: Ekkadunaav
+5/5/23, 11:25 - </>: Class lo raa
+5/5/23, 11:25 - </>: Nvuu aey lab
+5/5/23, 11:26 - </>: Lo vunnavu cheppu vastha
+5/5/23, 11:26 - Avvi: Endhuku dhengesaav class loki
+5/5/23, 11:26 - Avvi: Nenu internet laab lo
+5/5/23, 11:26 - </>: OK vastunna
+5/5/23, 16:24 - </>: <Media omitted>

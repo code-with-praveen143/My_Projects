@@ -38,3 +38,7 @@ scaled_data = scaler.transform(input_data_reshaped)
 prediction = regressor.predict(scaled_data)
 output = str(int(prediction[0]*100))+"%"
 print("Your are getting Chance of :",output)
+
+
+import pickle
+pickle.dump(regressor,open('model.pkl','wb+'))

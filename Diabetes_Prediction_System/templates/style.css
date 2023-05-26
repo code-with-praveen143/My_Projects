@@ -8,9 +8,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    background-image: url("https://post.healthline.com/wp-content/uploads/2020/09/doctor_glucosmeter_patient_hand-732x549-thumbnail-732x549.jpg");
 }
 .custom-btn {
+    margin-top: 20px;
     width: 130px;
     height: 40px;
     color: #1b0404;
@@ -29,11 +29,12 @@ body {
     outline: none;
 }
 .asd{
-    margin-top: 20px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
 .heading {
+    margin-bottom: 20px;
     font-family:"Poppins" sans-serif;
     color: black;
 }

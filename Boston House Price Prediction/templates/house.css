@@ -10,7 +10,6 @@ body {
     padding: 0 20px;
 }
 .custom-btn {
-    margin-top: 20px;
     width: 130px;
     height: 40px;
     color: #1b0404;
@@ -29,12 +28,12 @@ body {
     outline: none;
 }
 .asd{
-    margin-bottom: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 
 .heading {
-    margin-bottom: 20px;
+    margin-top: 40px;
     font-family:"Poppins" sans-serif;
     color: black;
 }
@@ -52,7 +51,7 @@ body {
     border: none;
 }
 .kk1{
-    margin-left: 175px;
+    margin-left: 230px;
     border-radius: 30px;
 }
 .kk2{
@@ -61,51 +60,50 @@ body {
 
 }
 .kk3{
-    margin-left: 160px;
+    margin-left: 175px;
     border-radius: 30px;
 }
 .kk4{
-    margin-left: 160px;
+    margin-left: 140px;
     border-radius: 30px;
 }
 .kk5{
-    margin-left: 210px;
+    margin-left: 40px;
     border-radius: 30px;
 }
 .kk6{
-    margin-left: 225px;
+    margin-left: 255px;
     border-radius: 30px;
 }
 
 .kk7{
-    margin-left: 67px;
+    margin-left: 150px;
     border-radius: 30px;
 }
 .kk8{
-    margin-left: 225px;
+    margin-left: 150px;
     border-radius: 30px;
 }
 .kk9{
-    margin-left: 225px;
+    margin-left: 150px;
     border-radius: 30px;
 }
 .kk10{
-    margin-left: 225px;
+    margin-left: 150px;
     border-radius: 30px;
 }
 .kk11{
-    margin-left: 225px;
+    margin-left: 150px;
     border-radius: 30px;
 }
 .kk12{
-    margin-left: 225px;
+    margin-left: 150px;
     border-radius: 30px;
 }
-.kk14{
-    margin-left: 225px;
+.kk13{
+    margin-left: 150px;
     border-radius: 30px;
 }
-
 .abc {
     text-align: left;
 }

@@ -20,8 +20,8 @@ def predict():
     features = [float(x) for x in request.form.values()]
     final_features = [np.array(features)]
     flask_prediction = model.predict(final_features)
-    print(flask_prediction)
-    return render_template("home.html",prediction_text=flask_prediction)
+    output = int(flask_prediction[0])
+    return render_template("home.html",prediction_text=output)
 
 if __name__=="__main__":
     app.run(debug=True)

@@ -24,7 +24,7 @@ X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 #Load the Machine Learning Model
 from sklearn.tree import DecisionTreeRegressor
-model = DecisionTreeRegressor()()
+model = DecisionTreeRegressor()
 model.fit(X_train,Y_train)
 # Prediction on train data
 train_pred = model.predict(X_train)

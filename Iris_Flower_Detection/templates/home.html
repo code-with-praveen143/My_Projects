@@ -31,7 +31,16 @@
             <br>
             <button type="submit">Predict</button>
         </form>
-        <h2>{{ prediction_text }}</h2>
+        {% if prediction_text==0 %}
+        <h1>It is a Iris-Setosa</h1>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/a/a7/Irissetosa1.jpg"></a>
+        {% elif prediction_text==1 %}
+        <h1>It is a Iris_Versicolor</h1>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/2/27/Blue_Flag%2C_Ottawa.jpg"></a>
+        {% else %}
+        <h1>It is a Iris-Virginica</h1>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Iris_virginica_2.jpg/1200px-Iris_virginica_2.jpg"></a>
+        {% endif %}
     </center>
 </body>
 </html>

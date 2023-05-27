@@ -31,15 +31,14 @@
             <br>
             <button type="submit">Predict</button>
         </form>
-        {% if prediction_text==0 %}
-        <h1>It is a Iris-Setosa</h1>
-        <a href="https://upload.wikimedia.org/wikipedia/commons/a/a7/Irissetosa1.jpg"></a>
-        {% elif prediction_text==1 %}
-        <h1>It is a Iris_Versicolor</h1>
-        <a href="https://upload.wikimedia.org/wikipedia/commons/2/27/Blue_Flag%2C_Ottawa.jpg"></a>
+        {% if prediction_text=="It is a Iris-Setosa" %}
+        <a href="https://upload.wikimedia.org/wikipedia/commons/a/a7/Irissetosa1.jpg"><h1>It is a Iris-Setosa</h1></a>
+        {% elif prediction_text=="It is a Iris-Versicolor" %}
+        <a href="https://upload.wikimedia.org/wikipedia/commons/2/27/Blue_Flag%2C_Ottawa.jpg"><h1>It is a Iris_Versicolor</h1></a>
+        {% elif prediction_text=="It is a Iris-Virginica" %}
+        <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Iris_virginica_2.jpg/1200px-Iris_virginica_2.jpg"><h1>It is a Iris-Virginica</h1></a>
         {% else %}
-        <h1>It is a Iris-Virginica</h1>
-        <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Iris_virginica_2.jpg/1200px-Iris_virginica_2.jpg"></a>
+        <h1>Enter Correct input</h1>
         {% endif %}
     </center>
 </body>

@@ -47,8 +47,12 @@ def predict():
     features = [float(x) for x in request.form.values()]
     final_features = [np.array(features)]
     flask_prediction = iris.predict(final_features)
-    output = flask_prediction[0]
-    return render_template('home.html',prediction_text=output)
+    if(flask_prediction[0] == 0):
+        return render_template('home.html',prediction_text="It is a Iris-Setosa")
+    elif(flask_prediction[0] == 1):
+        return render_template('home.html',prediction_text="It is a Iris-Versicolor")
+    else:
+        return render_template('home.html',prediction_text="It is a Iris-Virginica")
 
 
 

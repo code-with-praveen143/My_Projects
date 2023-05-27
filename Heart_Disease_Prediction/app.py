@@ -5,11 +5,11 @@ import os
 
 model=pickle.load(open('heart.pkl','rb'))
 
-app = Flask(__name__,template_folder=templates)
+app = Flask(__name__)
 
 port=int(os.environ.get("PORT",5000))
 
-@app.rout('/')
+@app.route('/')
 def home():
     return render_template('index.html')
 

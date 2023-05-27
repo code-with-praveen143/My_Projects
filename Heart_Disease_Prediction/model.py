@@ -37,7 +37,7 @@ X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.2,stratify=Y,ra
 # # print("X_Testing Data:",X_test)
 # # print("Y_Testing Data:",Y_test)
 # # print("Y_Training Data:",Y_train)
-
+print("X_train: ",X.shape)
 #Loading Our Machine Learning Model
 model = LogisticRegression()
 
@@ -64,8 +64,8 @@ input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
 
 prediction = model.predict(input_data_reshaped)
 if(prediction[0] == 1):
-  return render_template("index.html",prediction_text="The Person has a Heart Disease")
+  print("The Person has a Heart Disease")
 else:
-  return render_template("index.html",prediction_text="The Person Doesn't has a heart disease")
+  print("The Person Doesn't has a heart disease")
 
 pickle.dump(model,open('heart.pkl','wb'))

@@ -8,6 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import warnings
 warnings.filterwarnings("ignore") 
+import pickle
 print("All Dependencies are imported")
 
 #Loading the dataset which contain the details of heart disease patients data
@@ -66,3 +67,5 @@ if(prediction[0] == 1):
   print("The Person has a Heart Disease")
 else:
   print("The Person Doesn't has a heart disease")
+
+pickle.dump(model,open('heart.pkl','wb'))

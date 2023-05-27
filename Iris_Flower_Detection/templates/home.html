@@ -12,25 +12,196 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body {
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background-color: azure;
+}
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #1b0404;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+.asd{
+    margin-top: 20px;
+    text-align: center;
+}
+.prediction_text{
+    margin-top:30px;
+    font-family: "Poppins" sans-serif;
+    color: black;
+}
+.heading {
+    margin-top: 30px;
+    font-family:"Poppins" sans-serif;
+    color: black;
+}
+.btn-3 {
+    background: rgb(0, 172, 238);
+    background: linear-gradient(0deg, rgba(0, 172, 238, 1) 0%, rgba(2, 126, 251, 1) 100%);
+    
+    max-width: 330px;
+    height: 40px;
+    line-height: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+.kk1{
+    margin-left: 230px;
+    border-radius: 30px;
+}
+.kk2{
+    margin-left: 205px;
+    border-radius: 30px;
+
+}
+.kk3{
+    margin-left: 175px;
+    border-radius: 30px;
+}
+.kk4{
+    margin-left: 140px;
+    border-radius: 30px;
+}
+.abc {
+    text-align: left;
+}
+.btn-6 {
+    background: rgb(247, 150, 192);
+    background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+
+.btn-6 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-6:before,
+.btn-6:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 1px;
+    box-shadow:
+        -1px -1px 20px 0px rgba(255, 255, 255, 1),
+        -4px -4px 5px 0px rgba(255, 255, 255, 1),
+        7px 7px 20px 0px rgba(0, 0, 0, .4),
+        4px 4px 5px 0px rgba(0, 0, 0, .3);
+}
+
+.btn-6:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+}
+
+.btn-6:after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+}
+
+.btn-6:hover {
+    background: transparent;
+    color: #76aef1;
+    box-shadow: none;
+}
+
+.btn-6:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+}
+
+.btn-6:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+}
+
+.btn-6 span:before,
+.btn-6 span:after {
+    position: absolute;
+    content: "";
+    box-shadow:
+        -1px -1px 20px 0px rgba(255, 255, 255, 1),
+        -4px -4px 5px 0px rgba(255, 255, 255, 1),
+        7px 7px 20px 0px rgba(0, 0, 0, .4),
+        4px 4px 5px 0px rgba(0, 0, 0, .3);
+}
+
+.btn-6 span:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+}
+
+.btn-6 span:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+}
+
+.btn-6 span:hover:before {
+    width: 100%;
+}
+
+.btn-6 span:hover:after {
+    width: 100%;
+}
+    </style>
 </head>
 <body>
     <center> 
-        <h1>Welcome to the Iris Flower Classification System</h1>
-        <form action="{{url_for('predict')}}" method="post">
-            <label>SepalLengthCm:</label>
-            <input type="text" name="SepalLengthCm" required>
+        <h1 class="heading">Welcome to the Iris Flower Classification System</h1>
+        <form class="abc" action="{{url_for('predict')}}" method="post">
+            <label class="btn-3">SepalLengthCm:</label>
+            <input class="kk1" type="text" name="SepalLengthCm" required>
             <br>
-            <label>SepalWidthCm:</label>
-            <input type="text" name="SepalWidthCm" required>
+            <label  class="btn-3">SepalWidthCm:</label>
+            <input class="kk2" type="text" name="SepalWidthCm" required>
             <br>
-            <label>PetalLengthCm:</label>
-            <input type="text" name="PetalLengthCm" required>
+            <label  class="btn-3">PetalLengthCm:</label>
+            <input class="kk3" type="text" name="PetalLengthCm" required>
             <br>
-            <label>PetalWidthCm:</label>
-            <input type="text" name="PetalWidthCm" required>
+            <label  class="btn-3">PetalWidthCm:</label>
+            <input class="kk4" type="text" name="PetalWidthCm" required>
             <br>
-            <button type="submit">Predict</button>
+            <div class="asd"></div>
+            <button class="custom-btn btn-6" type="submit">Predict</button>
         </form>
+    <div class="prediction_text">
         {% if prediction_text=="It is a Iris-Setosa" %}
         <a href="https://upload.wikimedia.org/wikipedia/commons/a/a7/Irissetosa1.jpg"><h1>It is a Iris-Setosa</h1></a>
         {% elif prediction_text=="It is a Iris-Versicolor" %}
@@ -40,6 +211,7 @@
         {% else %}
         <h1>Enter Correct input</h1>
         {% endif %}
+    </div>
     </center>
 </body>
 </html>

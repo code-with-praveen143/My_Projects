@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    background-image: url("https://www.edmissions.com/media/upload/blog/142._List_of_GRE_Test_Centres_2023___GRE_Centres_in_India.png");
+    background-color: azure;
 }
 .custom-btn {
     width: 130px;
@@ -32,8 +32,13 @@ body {
     margin-top: 20px;
     text-align: center;
 }
-
+.prediction_text{
+    margin-top:30px;
+    font-family: "Poppins" sans-serif;
+    color: black;
+}
 .heading {
+    margin-top: 30px;
     font-family:"Poppins" sans-serif;
     color: black;
 }
@@ -67,25 +72,9 @@ body {
     margin-left: 140px;
     border-radius: 30px;
 }
-.kk5{
-    margin-left: 40px;
-    border-radius: 30px;
-}
-.kk6{
-    margin-left: 255px;
-    border-radius: 30px;
-}
-
-.kk7{
-    margin-left: 150px;
-    border-radius: 30px;
-}
 .abc {
     text-align: left;
 }
-
-
-
 .btn-6 {
     background: rgb(247, 150, 192);
     background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);

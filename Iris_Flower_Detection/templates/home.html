@@ -53,7 +53,7 @@ body {
     color: black;
 }
 .heading {
-    margin-top: 30px;
+    /* margin-top: 10px; */
     font-family:"Poppins" sans-serif;
     color: black;
 }
@@ -71,16 +71,16 @@ body {
     border: none;
 }
 .kk1{
-    margin-left: 230px;
+    margin-left: 138px;
     border-radius: 30px;
 }
 .kk2{
-    margin-left: 205px;
+    margin-left: 140px;
     border-radius: 30px;
 
 }
 .kk3{
-    margin-left: 175px;
+    margin-left: 138px;
     border-radius: 30px;
 }
 .kk4{
@@ -88,7 +88,8 @@ body {
     border-radius: 30px;
 }
 .abc {
-    text-align: left;
+    margin-top: 20px;
+    text-align: center;
 }
 .btn-6 {
     background: rgb(247, 150, 192);
@@ -198,8 +199,9 @@ body {
             <label  class="btn-3">PetalWidthCm:</label>
             <input class="kk4" type="text" name="PetalWidthCm" required>
             <br>
-            <div class="asd"></div>
+        <div class="asd">
             <button class="custom-btn btn-6" type="submit">Predict</button>
+        </div>
         </form>
     <div class="prediction_text">
         {% if prediction_text=="It is a Iris-Setosa" %}

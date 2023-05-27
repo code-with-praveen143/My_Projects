@@ -51,49 +51,49 @@ body {
     border: none;
 }
 .kk1{
-    margin-left: 230px;
+    margin-left: 170px;
     border-radius: 30px;
 }
 .kk2{
-    margin-left: 205px;
+    margin-left: 170px;
     border-radius: 30px;
 
 }
 .kk3{
-    margin-left: 175px;
+    margin-left: 170px;
     border-radius: 30px;
 }
 .kk4{
-    margin-left: 140px;
+    margin-left: 130px;
     border-radius: 30px;
 }
 .kk5{
-    margin-left: 40px;
+    margin-left: 160px;
     border-radius: 30px;
 }
 .kk6{
-    margin-left: 255px;
+    margin-left: 166px;
     border-radius: 30px;
 }
 
 .kk7{
-    margin-left: 150px;
+    margin-left: 134px;
     border-radius: 30px;
 }
 .kk8{
-    margin-left: 150px;
+    margin-left: 140px;
     border-radius: 30px;
 }
 .kk9{
-    margin-left: 150px;
+    margin-left: 115px;
     border-radius: 30px;
 }
 .kk10{
-    margin-left: 150px;
+    margin-left: 140px;
     border-radius: 30px;
 }
 .kk11{
-    margin-left: 150px;
+    margin-left: 160px;
     border-radius: 30px;
 }
 .kk12{
@@ -102,10 +102,13 @@ body {
 }
 .abc {
     margin-top: 30px;
-    text-align: left;
+    text-align: center;
 }
-
-
+.prediction_text{
+    margin-top: 20px;
+    color: black;
+    font-family: "Poppins" sans-serif;
+}
 
 .btn-6 {
     background: rgb(247, 150, 192);

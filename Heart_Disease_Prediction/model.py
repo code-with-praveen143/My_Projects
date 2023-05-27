@@ -64,8 +64,8 @@ input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
 
 prediction = model.predict(input_data_reshaped)
 if(prediction[0] == 1):
-  print("The Person has a Heart Disease")
+  return render_template("index.html",prediction_text="The Person has a Heart Disease")
 else:
-  print("The Person Doesn't has a heart disease")
+  return render_template("index.html",prediction_text="The Person Doesn't has a heart disease")
 
 pickle.dump(model,open('heart.pkl','wb'))

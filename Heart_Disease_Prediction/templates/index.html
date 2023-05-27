@@ -14,23 +14,49 @@
 </head>
 <body>
     <center> 
-        <h1>Welcome to the Iris Flower Detection System</h1>
-        <form action="{{url_for('predict')}}" method="post">
-            <label>SepalLengthCm:</label>
-            <input type="text" name="SepalLengthCm" required>
+        <h1 class="heading">Welcome to the Iris Flower Detection System</h1>
+        <form  class="abc" action="{{url_for('predict')}}" method="post">
+            <label class="btn-3">Age:</label>
+            <input class="kk1" type="text" name="Age" required>
             <br>
-            <label>SepalWidthCm:</label>
-            <input type="text" name="SepalWidthCm" required>
+            <label class="btn-3" class="btn-3">Sex:</label>
+            <input class="kk2" type="text" name="Sex" required>
             <br>
-            <label>PetalLengthCm:</label>
-            <input type="text" name="PetalLengthCm" required>
+            <label class="btn-3">CP:</label>
+            <input class="kk3" type="text" name="CP" required>
             <br>
-            <label>PetalWidthCm:</label>
-            <input type="text" name="PetalWidthCm" required>
+            <label class="btn-3">trestbps:</label>
+            <input class="kk4" type="text" name="trestbps" required>
             <br>
-            <button type="submit">Predict</button>
+            <label class="btn-3">chol:</label>
+            <input class="kk5" type="text" name="chol" required>
+            <br>
+            <label class="btn-3">fbs:</label>
+            <input class="kk6" type="text" name="fbs" required>
+            <br>
+            <label class="btn-3">restecg:</label>
+            <input class="kk7" type="text" name="restecg" required>
+            <br>
+            <label class="btn-3">exang:</label>
+            <input class="kk8" type="text" name="exang" required>
+            <br>
+            <label class="btn-3">oldspeak:</label>
+            <input class="kk9" type="text" name="oldspeak" required>
+            <br>
+            <label class="btn-3">slope:</label>
+            <input class="kk10" type="text" name="slope" required>
+            <br>
+            <label class="btn-3">ca:</label>
+            <input class="kk11" type="text" name="ca" required>
+            <br>
+            <label class="btn-3">thal:</label>
+            <input class="kk12" type="text" name="thal" required>
+            <br>
+            <div class="asd">
+                <button type="submit" class="custom-btn btn-6"><span>Predict</span></button>
+            </div>
         </form>
-        <h2>{{ prediction_text }}</h2>
+        <h2 class="prediction_text">{{ prediction_text }}</h2>
     </center>
 </body>
 </html>

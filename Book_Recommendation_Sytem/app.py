@@ -1,6 +1,7 @@
 from flask import Flask,render_template,request
 import pickle
 import numpy as np
+import os
 popular_df = pickle.load(open('popular.pkl','rb'))
 pt = pickle.load(open('pt.pkl','rb'))
 books = pickle.load(open('books.pkl','rb'))
@@ -8,7 +9,7 @@ similarity_scores = pickle.load(open('similarity_scores.pkl','rb'))
 
 
 app = Flask(__name__)
-
+port = int(os.environ.get("PORT",3000))
 @app.route('/')
 def index():
     return render_template('index.html',
@@ -42,4 +43,4 @@ def recommend():
     print(data)
     return render_template('recommendation.html',data = data)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0',port=port)

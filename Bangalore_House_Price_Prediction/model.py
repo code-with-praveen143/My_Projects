@@ -81,6 +81,6 @@ from sklearn.metrics import r2_score
 R2_score = r2_score(Y_test, y_pred)
 print("R2 Score is :",R2_score)
 
-
-import pickle
-pickle.dump(regressor,open('bangalore.pkl','wb'))
+print("column trans",column_trans)
+# import pickle
+# pickle.dump(regressor,open('bangalore.pkl','wb'))

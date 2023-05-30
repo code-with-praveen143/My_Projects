@@ -4,7 +4,7 @@ import os
 
 
 app = Flask(__name__)
-port = int(os.environ.get("PORT",5000))
+port = int(os.environ.get("PORT",3000))
 @app.route('/')
 def home():
     return render_template('index.html')

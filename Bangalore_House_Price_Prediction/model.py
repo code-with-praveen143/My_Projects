@@ -62,3 +62,25 @@ def bhk_outlier_remover(df):
 data.drop(columns=['size','price_per_sqft'],inplace=True)
 print(data.head())
 data.to_csv("Cleaned_data.csv")
+from sklearn.preprocessing import StandardScaler,OneHotEncoder
+X = data.drop(columns=['price'])
+Y = data['price']
+from sklearn.model_selection import train_test_split
+from sklearn.compose import make_column_transformer
+from sklearn.pipeline import make_pipeline
+X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.2,random_state=0)
+column_trans = make_column_transformer((OneHotEncoder(sparse=False),['location']),remainder='passthrough')
+scaler = StandardScaler()
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+pipe = make_pipeline(column_trans,scaler,regressor)
+pipe.fit(X_train,Y_train)
+y_pred = pipe.predict(X_test)
+print(y_pred)
+from sklearn.metrics import r2_score
+R2_score = r2_score(Y_test, y_pred)
+print("R2 Score is :",R2_score)
+
+
+import pickle
+pickle.dump(regressor,open('bangalore.pkl','wb'))

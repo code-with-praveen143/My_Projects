@@ -1,7 +1,7 @@
 from flask import*
 import os
 app = Flask(__name__)
-my_dict = {
+data = {
   "courses": [
     {
       "course_id": "CSE101",
@@ -11,7 +11,7 @@ my_dict = {
       "enrollment_count": 35
     },
     {
-      "course_id": "MAT201",
+      "course_id": "2",
       "course_name": "Linear Algebra",
       "instructor": "Emily Johnson",
       "enrollment_capacity": 40,
@@ -53,25 +53,25 @@ def index():
 
 @app.route('/courses',methods=["GET"])
 def get():
-    return jsonify({'Courses':my_dict})
+    return jsonify({'Courses':data})
 
 @app.route('/courses/<int:course_id>',methods=['GET'])
 def get_course(course_id):
-    return jsonify({'course':my_dict[course_id]})
+    return jsonify({'course':data[course_id]})
 
 @app.route('/courses',methods=['POST'])
 def create():
     
 
-    course = {
-      "course_id": "3",
-      "course_name": "Machine Learning",
-      "instructor": "Geoffery Hintoln",
-      "enrollment_capacity": 25,
-      "enrollment_count": 20
-    }
-    my_dict.update(course)
-    return jsonify({'Created':course})
+    data["courses"].append({
+    "course_id": "PHY202",
+    "course_name": "Physics II",
+    "instructor": "Michael Brown",
+    "enrollment_capacity": 30,
+    "enrollment_count": 15
+    })
+
+    return jsonify({'Created':data})
 
 @app.route('/courses/<int:course_id>',methods=['PUT'])
 def course_update(course_id):

@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRE Admission Predicitor</title>
-    <link rel="stylesheet" href="style.css">
+    <title>GRE Predictor</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -23,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    background-image: url("https://www.edmissions.com/media/upload/blog/142._List_of_GRE_Test_Centres_2023___GRE_Centres_in_India.png");
+    background-color: #89a9d1;
 }
 .custom-btn {
     width: 130px;
@@ -50,7 +49,9 @@ body {
 
 .heading {
     font-family:"Poppins" sans-serif;
-    color: black;
+    color: rgba(11, 11, 11, 0.816);
+    text-align: center;
+    margin-bottom: 460px;
 }
 .btn-3 {
     background: rgb(0, 172, 238);
@@ -66,7 +67,7 @@ body {
     border: none;
 }
 .kk1{
-    margin-left: 230px;
+    margin-left: 220px;
     border-radius: 30px;
 }
 .kk2{
@@ -96,7 +97,7 @@ body {
     border-radius: 30px;
 }
 .abc {
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -191,16 +192,19 @@ body {
 .btn-6 span:hover:after {
     width: 100%;
 }
+.prediction_text{
+    margin-top: 10px;
+    color: black;
+}
     </style>
 </head>
-<body> 
-    <center>
-   <main>
-  <h1 class = "heading">Welcome to the GRE Admission Prediction System</h1>
-</main>
-    <br>
-    <form  class = "abc" action="{{url_for('predict')}}" method="post"> 
+<body>
+    <main>
+        <h1 class="heading">Welcome to GRE Admission Prediction System</h1>
+    </main>
     
+    <center>
+    <form  class = "abc" action="{{url_for('predict')}}" method="post"> 
         <label class = "btn-3">GRE Score:</label>
         <input type="text" class = "kk1" name="GRE Score" required>
         <br>
@@ -228,7 +232,9 @@ body {
         <br>
     </form>
     <br>
-    <h2>Your Are Getting Chance Of Admission is : {{ prediction_text }}</h2>
+    <div class="prediction_text">
+        <h2>You are getting chance of Admission is: {{ prediction_text }}</h2>
+    </div>
     </center>
 </body>
 </html>

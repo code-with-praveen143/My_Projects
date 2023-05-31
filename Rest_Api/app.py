@@ -1,29 +1,49 @@
 from flask import*
 import os
 app = Flask(__name__)
-courses =  [
+my_dict = {
+  "courses": [
     {
-      "course_id": "0",
+      "course_id": "CSE101",
       "course_name": "Introduction to Computer Science",
       "instructor": "John Smith",
       "enrollment_capacity": 50,
       "enrollment_count": 35
     },
     {
-      "course_id": "1",
+      "course_id": "MAT201",
       "course_name": "Linear Algebra",
       "instructor": "Emily Johnson",
       "enrollment_capacity": 40,
       "enrollment_count": 38
     },
     {
-      "course_id": "2",
+      "course_id": "ENG301",
       "course_name": "Advanced English Writing",
       "instructor": "Sarah Thompson",
       "enrollment_capacity": 25,
       "enrollment_count": 20
     }
+  ],
+  "students": [
+    {
+      "student_id": "001",
+      "student_name": "Alice Smith",
+      "enrolled_courses": ["CSE101", "MAT201"]
+    },
+    {
+      "student_id": "002",
+      "student_name": "Bob Johnson",
+      "enrolled_courses": ["ENG301"]
+    },
+    {
+      "student_id": "003",
+      "student_name": "Eva Davis",
+      "enrolled_courses": []
+    }
   ]
+}
+
 
 port = int(os.environ.get("PORT",3000))
 
@@ -33,14 +53,16 @@ def index():
 
 @app.route('/courses',methods=["GET"])
 def get():
-    return jsonify({'Courses':courses})
+    return jsonify({'Courses':my_dict})
 
 @app.route('/courses/<int:course_id>',methods=['GET'])
 def get_course(course_id):
-    return jsonify({'course':courses[course_id]})
+    return jsonify({'course':my_dict[course_id]})
 
 @app.route('/courses',methods=['POST'])
 def create():
+    
+
     course = {
       "course_id": "3",
       "course_name": "Machine Learning",
@@ -48,8 +70,13 @@ def create():
       "enrollment_capacity": 25,
       "enrollment_count": 20
     }
-    courses.add(course)
+    my_dict.update(course)
     return jsonify({'Created':course})
+
+@app.route('/courses/<int:course_id>',methods=['PUT'])
+def course_update(course_id):
+    courses[course_id]["Description"] = "abc"
+    return jsonify({'course':courses[course_id]})
 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0',port=port)

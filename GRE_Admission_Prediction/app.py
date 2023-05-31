@@ -6,7 +6,7 @@ with open('model.pkl','rb') as file:
   model = pickle.load(file)
 app = Flask(__name__)
 
-port=int(os.environ.get("PORT",5000))
+port=int(os.environ.get("PORT",3000))
 
 @app.route('/')
 def home():

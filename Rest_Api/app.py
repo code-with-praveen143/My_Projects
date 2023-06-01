@@ -1,82 +1,55 @@
-from flask import*
+from flask import Flask, jsonify, request
 import os
-app = Flask(__name__)
-data = {
-  "courses": [
-    {
-      "course_id": "CSE101",
-      "course_name": "Introduction to Computer Science",
-      "instructor": "John Smith",
-      "enrollment_capacity": 50,
-      "enrollment_count": 35
-    },
-    {
-      "course_id": "2",
-      "course_name": "Linear Algebra",
-      "instructor": "Emily Johnson",
-      "enrollment_capacity": 40,
-      "enrollment_count": 38
-    },
-    {
-      "course_id": "ENG301",
-      "course_name": "Advanced English Writing",
-      "instructor": "Sarah Thompson",
-      "enrollment_capacity": 25,
-      "enrollment_count": 20
-    }
-  ],
-  "students": [
-    {
-      "student_id": "001",
-      "student_name": "Alice Smith",
-      "enrolled_courses": ["CSE101", "MAT201"]
-    },
-    {
-      "student_id": "002",
-      "student_name": "Bob Johnson",
-      "enrolled_courses": ["ENG301"]
-    },
-    {
-      "student_id": "003",
-      "student_name": "Eva Davis",
-      "enrolled_courses": []
-    }
-  ]
-}
 
+app = Flask(__name__)
 
 port = int(os.environ.get("PORT",3000))
-
+books = [
+    {'id': 1, 'title': 'Romeo Juliet', 'author': 'Praveen'},
+    {'id': 2, 'title': 'Dark Rider', 'author': 'Raghu'},
+]
 @app.route('/')
-def index():
-    return "<h1>Welcome to the course REST API</h1>"
+def home():
+    return "<h1>Welcome to REST API Course Using FLASK"
 
-@app.route('/courses',methods=["GET"])
-def get():
-    return jsonify({'Courses':data})
+@app.route('/books', methods=['GET'])
+def get_books():
+    return jsonify(books)
 
-@app.route('/courses/<int:course_id>',methods=['GET'])
-def get_course(course_id):
-    return jsonify({'course':data[course_id]})
+@app.route('/books/<int:book_id>', methods=['GET'])
+def get_book(book_id):
+    for book in books:
+        if book['id'] == book_id:
+            return jsonify(book)
+    return jsonify({'error': 'Book not found'}), 404
 
-@app.route('/courses',methods=['POST'])
-def create():
-    
+@app.route('/books', methods=['POST'])
+def add_book():
+    new_book = {
+        'id': request.json['id'],
+        'title': request.json['title'],
+        'author': request.json['author']
+    }
+    books.append(new_book)
+    return jsonify(new_book), 201
 
-    data["courses"].append({
-    "course_id": "PHY202",
-    "course_name": "Physics II",
-    "instructor": "Michael Brown",
-    "enrollment_capacity": 30,
-    "enrollment_count": 15
-    })
+@app.route('/books/<int:book_id>', methods=['PUT'])
+def update_book(book_id):
+    for book in books:
+        if book['id'] == book_id:
+            book['title'] = request.json['title']
+            book['author'] = request.json['author']
+            return jsonify(book)
+    return jsonify({'error': 'Book not found'}), 404
 
-    return jsonify({'Created':data})
+@app.route('/books/<int:book_id>', methods=['DELETE'])
+def delete_book(book_id):
+    for book in books:
+        if book['id'] == book_id:
+            books.remove(book)
+            return jsonify({'message': 'Book deleted'})
+    return jsonify({'error': 'Book not found'}), 404
 
-@app.route('/courses/<int:course_id>',methods=['PUT'])
-def course_update(course_id):
-    courses[course_id]["Description"] = "abc"
-    return jsonify({'course':courses[course_id]})
-
-if __name__ == "__main__":
+# Run the Flask app
+if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0',port=port)
